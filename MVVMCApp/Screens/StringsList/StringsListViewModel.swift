@@ -28,26 +28,28 @@ final class StringsListDefaultViewModel: StringsListViewModel {
             return
         }
 
-        URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
-            guard let self = self else {
-                return
-            }
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else {
+                    return
+                }
 
-            if let _ = error {
-//                completion(.failure(error))
-            }
+                if let _ = error {
+                    return
+                }
 
-            guard let data = data else {
-                return
-            }
+                guard let data = data else {
+                    return
+                }
 
-            do {
-                self.strings = try JSONDecoder().decode([String].self, from: data)
+                guard let dataString = String(data: data, encoding: .utf8) else {
+                    return
+                }
+                self.strings = dataString
+                    .split(whereSeparator: \.isNewline)
+                    .map(String.init)
                 self.delegate?.didLoadData()
-            } catch {
-//                completion(.failure(error))
             }
-
         }.resume()
     }
 

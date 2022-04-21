@@ -13,15 +13,25 @@ enum LoginError: Error {
 
 protocol LoginViewModel {
     func login(user: String, password: String, completion: @escaping (Result<Void, Error>) -> Void)
+    func success()
+}
+
+protocol LoginViewModelCoordinatorDelegate: AnyObject {
+    func loginSuccess()
 }
 
 final class LoginDefaulViewModel: LoginViewModel {
+    weak var coordinatorDelegate: LoginViewModelCoordinatorDelegate?
 
     func login(user: String, password: String, completion: @escaping (Result<Void, Error>) -> Void) {
-        if user == "" && password == "" {
+        if user == "user" && password == "123qwe" {
             completion(.success(()))
         } else {
             completion(.failure(LoginError.incorrectCredentials))
         }
+    }
+
+    func success() {
+        coordinatorDelegate?.loginSuccess()
     }
 }

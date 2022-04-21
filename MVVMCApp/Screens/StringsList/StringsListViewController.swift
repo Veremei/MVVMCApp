@@ -24,8 +24,13 @@ class StringsListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Strings"
         tableView.dataSource = self
+        tableView.register(UINib(nibName: "RandomStringCell", bundle: nil), forCellReuseIdentifier: "cell")
+    }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         viewModel.fetchData()
     }
 }
@@ -36,7 +41,14 @@ extension StringsListViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+
+        guard let stringCell = cell as? RandomStringCell else {
+            return cell
+        }
+        let text = viewModel.strings[indexPath.row]
+        stringCell.setTitle(text: text)
+        return stringCell
     }
 }
 

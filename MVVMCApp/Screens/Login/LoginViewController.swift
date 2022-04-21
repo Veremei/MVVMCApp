@@ -25,6 +25,7 @@ final class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Login"
     }
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
@@ -33,10 +34,14 @@ final class LoginViewController: UIViewController {
                   return
               }
 
-        viewModel.login(user: user, password: password) { result in
+        viewModel.login(user: user, password: password) { [weak self] result in
+            guard let self = self else {
+                return
+            }
+
             switch result {
             case .success():
-                print("")
+                self.viewModel.success()
             case .failure(_):
                 print("")
             }
