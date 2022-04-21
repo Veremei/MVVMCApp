@@ -26,6 +26,9 @@ final class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Login"
+
+        loginButton.configuration?.imagePlacement = .trailing
+        loginButton.configuration?.imagePadding = 8.0
     }
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
@@ -33,19 +36,35 @@ final class LoginViewController: UIViewController {
               let password = passwordTextField.text else {
                   return
               }
+        startLoading()
 
         viewModel.login(user: user, password: password) { [weak self] result in
             guard let self = self else {
                 return
             }
+            
+            self.finishLoading()
 
             switch result {
-            case .success():
-                self.viewModel.success()
+            case .success:
+                self.loginButton.configuration?.image = UIImage(systemName: "checkmark",
+                                                                withConfiguration: UIImage.SymbolConfiguration(scale: .large))
+
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    self.viewModel.loginDidFinish()
+                }
             case .failure(let error):
                 self.presentAlert(with: error)
             }
         }
+    }
+
+    private func startLoading() {
+        loginButton.configuration?.showsActivityIndicator = true
+    }
+
+    private func finishLoading() {
+        loginButton.configuration?.showsActivityIndicator = false
     }
 
     private func presentAlert(with error: Error) {

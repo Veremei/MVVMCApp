@@ -8,6 +8,10 @@
 import Foundation
 import UIKit
 
+protocol LoginViewModelCoordinatorDelegate: AnyObject {
+    func loginFlowSuccess()
+}
+
 final class LoginCoordinator: BaseCoordinator {
 
     private let navigation: UINavigationController
@@ -27,7 +31,7 @@ final class LoginCoordinator: BaseCoordinator {
 }
 
 extension LoginCoordinator: LoginViewModelCoordinatorDelegate {
-    func loginSuccess() {
+    func loginFlowSuccess() {
         coordinator.loggedIn()
     }
 }

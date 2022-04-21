@@ -11,7 +11,6 @@
 		BA4BF05328109E000073C200 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF05228109E000073C200 /* SceneDelegate.swift */; };
 		BA4BF05A28109E030073C200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4BF05928109E030073C200 /* Assets.xcassets */; };
 		BA4BF05D28109E030073C200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4BF05B28109E030073C200 /* LaunchScreen.storyboard */; };
-		BA4BF06828109E030073C200 /* MVVMCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF06728109E030073C200 /* MVVMCAppTests.swift */; };
 		BA4BF07228109E030073C200 /* MVVMCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF07128109E030073C200 /* MVVMCAppUITests.swift */; };
 		BA4BF07428109E030073C200 /* MVVMCAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF07328109E030073C200 /* MVVMCAppUITestsLaunchTests.swift */; };
 		BA4BF08428109FB20073C200 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF08328109FB20073C200 /* LoginViewModel.swift */; };
@@ -59,6 +58,7 @@
 		BA6BD7792811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
 		BA6BD77A2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
 		BA6BD77B2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
+		BA6BDA4E281182750079D399 /* LoginScreenModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA4D281182750079D399 /* LoginScreenModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +86,6 @@
 		BA4BF05C28109E030073C200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4BF05E28109E030073C200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA4BF06328109E030073C200 /* MVVMCAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA4BF06728109E030073C200 /* MVVMCAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCAppTests.swift; sourceTree = "<group>"; };
 		BA4BF06D28109E030073C200 /* MVVMCAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4BF07128109E030073C200 /* MVVMCAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCAppUITests.swift; sourceTree = "<group>"; };
 		BA4BF07328109E030073C200 /* MVVMCAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -105,6 +104,7 @@
 		BA6BD7702811749E0079D399 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		BA6BD774281175870079D399 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringURLBuilder.swift; sourceTree = "<group>"; };
+		BA6BDA4D281182750079D399 /* LoginScreenModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 		BA4BF06628109E030073C200 /* MVVMCAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA4BF06728109E030073C200 /* MVVMCAppTests.swift */,
+				BA6BDA4D281182750079D399 /* LoginScreenModelTests.swift */,
 			);
 			path = MVVMCAppTests;
 			sourceTree = "<group>";
@@ -418,11 +418,11 @@
 				BA4BF0982810AB7F0073C200 /* StringsListViewController.swift in Sources */,
 				BA6BD75A28114B290079D399 /* LoginCoordinator.swift in Sources */,
 				BA4BF08528109FB20073C200 /* LoginViewModel.swift in Sources */,
-				BA4BF06828109E030073C200 /* MVVMCAppTests.swift in Sources */,
 				BA6BD75628113E2A0079D399 /* AppCoordinator.swift in Sources */,
 				BA6BD769281165B70079D399 /* RandomStringCell.swift in Sources */,
 				BA4BF0932810AB490073C200 /* StringsListViewModel.swift in Sources */,
 				BA6BD7722811749E0079D399 /* Endpoint.swift in Sources */,
+				BA6BDA4E281182750079D399 /* LoginScreenModelTests.swift in Sources */,
 				BA6BD776281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD7632811527F0079D399 /* Coordinator.swift in Sources */,
 			);

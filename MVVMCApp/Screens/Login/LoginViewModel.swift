@@ -20,25 +20,28 @@ enum LoginError: LocalizedError {
 
 protocol LoginViewModel {
     func login(user: String, password: String, completion: @escaping (Result<Void, Error>) -> Void)
-    func success()
-}
-
-protocol LoginViewModelCoordinatorDelegate: AnyObject {
-    func loginSuccess()
+    func loginDidFinish()
 }
 
 final class LoginDefaulViewModel: LoginViewModel {
+    private struct Constants {
+        static let user = "user"
+        static let password = "123qwe"
+    }
+
     weak var coordinatorDelegate: LoginViewModelCoordinatorDelegate?
 
     func login(user: String, password: String, completion: @escaping (Result<Void, Error>) -> Void) {
-        if user == "user" && password == "123qwe" {
-            completion(.success(()))
-        } else {
-            completion(.failure(LoginError.incorrectCredentials))
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            if user == Constants.user && password == Constants.password {
+                completion(.success(()))
+            } else {
+                completion(.failure(LoginError.incorrectCredentials))
+            }
         }
     }
 
-    func success() {
-        coordinatorDelegate?.loginSuccess()
+    func loginDidFinish() {
+        coordinatorDelegate?.loginFlowSuccess()
     }
 }
