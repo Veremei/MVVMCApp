@@ -31,7 +31,23 @@ class StringsListViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        viewModel.fetchData()
+        viewModel.fetchData { [weak self] result in
+            guard let self = self else {
+                return
+            }
+            switch result {
+            case .success:
+                self.tableView.reloadData()
+            case .failure(let error):
+                self.loadingFailed(with: error)
+            }
+        }
+    }
+
+    private func loadingFailed(with error: Error) {
+        let alert = UIAlertController(title: "Error occurred", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
 }
 
@@ -49,18 +65,6 @@ extension StringsListViewController: UITableViewDataSource {
         let text = viewModel.strings[indexPath.row]
         stringCell.setTitle(text: text)
         return stringCell
-    }
-}
-
-extension StringsListViewController: StringsListViewDelegate {
-    func didLoadData() {
-        tableView.reloadData()
-    }
-
-    func loadingFailed(with error: Error) {
-        let alert = UIAlertController(title: "Error occurred", message: error.localizedDescription, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
     }
 }
 

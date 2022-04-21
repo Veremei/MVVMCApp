@@ -13,8 +13,11 @@ enum NetworkServiceError: Error {
     case commonError
 }
 
+protocol NetworkServiceProtocol {
+    func request(endpoint: Endpoint, completion: @escaping (Result<Data, Error>) -> Void)
+}
 
-class NetworkService {
+class NetworkService: NetworkServiceProtocol {
     static let shared = NetworkService()
 
     private init() { }

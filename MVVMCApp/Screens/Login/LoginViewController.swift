@@ -25,10 +25,17 @@ final class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Login"
+        setupUI()
+    }
 
+    private func setupUI() {
+        title = "Login"
         loginButton.configuration?.imagePlacement = .trailing
         loginButton.configuration?.imagePadding = 8.0
+
+        if let creds = viewModel.credentials {
+            userTextField.text = creds.user
+        }
     }
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
@@ -54,6 +61,7 @@ final class LoginViewController: UIViewController {
                     self.viewModel.loginDidFinish()
                 }
             case .failure(let error):
+                self.passwordTextField.text?.removeAll()
                 self.presentAlert(with: error)
             }
         }

@@ -58,7 +58,25 @@
 		BA6BD7792811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
 		BA6BD77A2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
 		BA6BD77B2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
-		BA6BDA4E281182750079D399 /* LoginScreenModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA4D281182750079D399 /* LoginScreenModelTests.swift */; };
+		BA6BDA4E281182750079D399 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA4D281182750079D399 /* LoginViewModelTests.swift */; };
+		BA6BDA50281194280079D399 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA4F281194280079D399 /* LoginCredentials.swift */; };
+		BA6BDA51281194280079D399 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA4F281194280079D399 /* LoginCredentials.swift */; };
+		BA6BDA52281194280079D399 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA4F281194280079D399 /* LoginCredentials.swift */; };
+		BA6BDA5428119D620079D399 /* StringsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA5328119D620079D399 /* StringsListViewModelTests.swift */; };
+		BA6BDA562811A2070079D399 /* NetworkServiceFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA552811A2070079D399 /* NetworkServiceFake.swift */; };
+		BA6BDA582811A60A0079D399 /* RandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA572811A60A0079D399 /* RandomStringsDataService.swift */; };
+		BA6BDA592811A60A0079D399 /* RandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA572811A60A0079D399 /* RandomStringsDataService.swift */; };
+		BA6BDA5A2811A60A0079D399 /* RandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA572811A60A0079D399 /* RandomStringsDataService.swift */; };
+		BA6BDA5E2811AB420079D399 /* StubRandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA5D2811AB420079D399 /* StubRandomStringsDataService.swift */; };
+		BA6BDA5F2811AB420079D399 /* StubRandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA5D2811AB420079D399 /* StubRandomStringsDataService.swift */; };
+		BA6BDA602811AB420079D399 /* StubRandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA5D2811AB420079D399 /* StubRandomStringsDataService.swift */; };
+		BA6BDA622811B8100079D399 /* MockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA612811B8100079D399 /* MockCoordinator.swift */; };
+		BA6BDA632811B8100079D399 /* MockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA612811B8100079D399 /* MockCoordinator.swift */; };
+		BA6BDA642811B8100079D399 /* MockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA612811B8100079D399 /* MockCoordinator.swift */; };
+		BA6BDA672811B8370079D399 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA662811B8370079D399 /* AppCoordinatorTests.swift */; };
+		BA6BDA6F2811C0690079D399 /* RandomStringURLBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA6E2811C0690079D399 /* RandomStringURLBuilderTests.swift */; };
+		BA6BDA722811C3E00079D399 /* RandomStringsDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA712811C3E00079D399 /* RandomStringsDataServiceTests.swift */; };
+		BA6BDA752811C56F0079D399 /* random_strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA6BDA742811C56F0079D399 /* random_strings.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +122,17 @@
 		BA6BD7702811749E0079D399 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		BA6BD774281175870079D399 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringURLBuilder.swift; sourceTree = "<group>"; };
-		BA6BDA4D281182750079D399 /* LoginScreenModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenModelTests.swift; sourceTree = "<group>"; };
+		BA6BDA4D281182750079D399 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		BA6BDA4F281194280079D399 /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		BA6BDA5328119D620079D399 /* StringsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsListViewModelTests.swift; sourceTree = "<group>"; };
+		BA6BDA552811A2070079D399 /* NetworkServiceFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFake.swift; sourceTree = "<group>"; };
+		BA6BDA572811A60A0079D399 /* RandomStringsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringsDataService.swift; sourceTree = "<group>"; };
+		BA6BDA5D2811AB420079D399 /* StubRandomStringsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubRandomStringsDataService.swift; sourceTree = "<group>"; };
+		BA6BDA612811B8100079D399 /* MockCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoordinator.swift; sourceTree = "<group>"; };
+		BA6BDA662811B8370079D399 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		BA6BDA6E2811C0690079D399 /* RandomStringURLBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringURLBuilderTests.swift; sourceTree = "<group>"; };
+		BA6BDA712811C3E00079D399 /* RandomStringsDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringsDataServiceTests.swift; sourceTree = "<group>"; };
+		BA6BDA742811C56F0079D399 /* random_strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = random_strings.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +186,7 @@
 				BA4BF05028109E000073C200 /* AppDelegate.swift */,
 				BA4BF05228109E000073C200 /* SceneDelegate.swift */,
 				BA6BD7602811526E0079D399 /* Coordinator */,
-				BA6BD76E281174820079D399 /* Network */,
+				BA6BD76E281174820079D399 /* Services */,
 				BA6BD76F2811748C0079D399 /* Models */,
 				BA4BF08028109F740073C200 /* Screens */,
 				BA4BF05928109E030073C200 /* Assets.xcassets */,
@@ -171,7 +199,12 @@
 		BA4BF06628109E030073C200 /* MVVMCAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA6BDA4D281182750079D399 /* LoginScreenModelTests.swift */,
+				BA6BDA702811C3CB0079D399 /* Service */,
+				BA6BDA652811B8230079D399 /* Navigation */,
+				BA6BDA5B2811A83F0079D399 /* ViewModels */,
+				BA6BDA5C2811A84E0079D399 /* Helpers */,
+				BA6BDA682811BA770079D399 /* Extensions */,
+				BA6BDA732811C55F0079D399 /* Resources */,
 			);
 			path = MVVMCAppTests;
 			sourceTree = "<group>";
@@ -235,12 +268,13 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		BA6BD76E281174820079D399 /* Network */ = {
+		BA6BD76E281174820079D399 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				BA6BD774281175870079D399 /* NetworkService.swift */,
+				BA6BDA572811A60A0079D399 /* RandomStringsDataService.swift */,
 			);
-			path = Network;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		BA6BD76F2811748C0079D399 /* Models */ = {
@@ -248,8 +282,60 @@
 			children = (
 				BA6BD7702811749E0079D399 /* Endpoint.swift */,
 				BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */,
+				BA6BDA4F281194280079D399 /* LoginCredentials.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BA6BDA5B2811A83F0079D399 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BDA4D281182750079D399 /* LoginViewModelTests.swift */,
+				BA6BDA5328119D620079D399 /* StringsListViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BA6BDA5C2811A84E0079D399 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BDA552811A2070079D399 /* NetworkServiceFake.swift */,
+				BA6BDA5D2811AB420079D399 /* StubRandomStringsDataService.swift */,
+				BA6BDA612811B8100079D399 /* MockCoordinator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA6BDA652811B8230079D399 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BDA662811B8370079D399 /* AppCoordinatorTests.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		BA6BDA682811BA770079D399 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA6BDA702811C3CB0079D399 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BDA6E2811C0690079D399 /* RandomStringURLBuilderTests.swift */,
+				BA6BDA712811C3E00079D399 /* RandomStringsDataServiceTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BA6BDA732811C55F0079D399 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BDA742811C56F0079D399 /* random_strings.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +456,7 @@
 			files = (
 				BA4BF08D2810A49A0073C200 /* LoginViewController.xib in Resources */,
 				BA6BD76C281165B70079D399 /* RandomStringCell.xib in Resources */,
+				BA6BDA752811C56F0079D399 /* random_strings.txt in Resources */,
 				BA4BF09B2810AB7F0073C200 /* StringsListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,10 +480,13 @@
 			files = (
 				BA6BD75528113E2A0079D399 /* AppCoordinator.swift in Sources */,
 				BA4BF08428109FB20073C200 /* LoginViewModel.swift in Sources */,
+				BA6BDA622811B8100079D399 /* MockCoordinator.swift in Sources */,
 				BA4BF0972810AB7F0073C200 /* StringsListViewController.swift in Sources */,
+				BA6BDA5E2811AB420079D399 /* StubRandomStringsDataService.swift in Sources */,
 				BA6BD7792811775F0079D399 /* RandomStringURLBuilder.swift in Sources */,
 				BA4BF05128109E000073C200 /* AppDelegate.swift in Sources */,
 				BA6BD75D28114B4E0079D399 /* StringsListCoordinator.swift in Sources */,
+				BA6BDA50281194280079D399 /* LoginCredentials.swift in Sources */,
 				BA6BD7622811527F0079D399 /* Coordinator.swift in Sources */,
 				BA4BF08828109FBD0073C200 /* LoginViewController.swift in Sources */,
 				BA6BD75928114B290079D399 /* LoginCoordinator.swift in Sources */,
@@ -405,6 +495,7 @@
 				BA6BD7712811749E0079D399 /* Endpoint.swift in Sources */,
 				BA6BD775281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD768281165B70079D399 /* RandomStringCell.swift in Sources */,
+				BA6BDA582811A60A0079D399 /* RandomStringsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,19 +503,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6BDA672811B8370079D399 /* AppCoordinatorTests.swift in Sources */,
+				BA6BDA5F2811AB420079D399 /* StubRandomStringsDataService.swift in Sources */,
 				BA4BF08928109FBD0073C200 /* LoginViewController.swift in Sources */,
 				BA6BD77A2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */,
 				BA6BD75E28114B4E0079D399 /* StringsListCoordinator.swift in Sources */,
+				BA6BDA632811B8100079D399 /* MockCoordinator.swift in Sources */,
 				BA4BF0982810AB7F0073C200 /* StringsListViewController.swift in Sources */,
 				BA6BD75A28114B290079D399 /* LoginCoordinator.swift in Sources */,
+				BA6BDA562811A2070079D399 /* NetworkServiceFake.swift in Sources */,
+				BA6BDA592811A60A0079D399 /* RandomStringsDataService.swift in Sources */,
 				BA4BF08528109FB20073C200 /* LoginViewModel.swift in Sources */,
 				BA6BD75628113E2A0079D399 /* AppCoordinator.swift in Sources */,
 				BA6BD769281165B70079D399 /* RandomStringCell.swift in Sources */,
 				BA4BF0932810AB490073C200 /* StringsListViewModel.swift in Sources */,
 				BA6BD7722811749E0079D399 /* Endpoint.swift in Sources */,
-				BA6BDA4E281182750079D399 /* LoginScreenModelTests.swift in Sources */,
+				BA6BDA722811C3E00079D399 /* RandomStringsDataServiceTests.swift in Sources */,
+				BA6BDA51281194280079D399 /* LoginCredentials.swift in Sources */,
+				BA6BDA4E281182750079D399 /* LoginViewModelTests.swift in Sources */,
+				BA6BDA6F2811C0690079D399 /* RandomStringURLBuilderTests.swift in Sources */,
 				BA6BD776281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD7632811527F0079D399 /* Coordinator.swift in Sources */,
+				BA6BDA5428119D620079D399 /* StringsListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,10 +534,13 @@
 			files = (
 				BA4BF08A28109FBD0073C200 /* LoginViewController.swift in Sources */,
 				BA4BF0942810AB490073C200 /* StringsListViewModel.swift in Sources */,
+				BA6BDA642811B8100079D399 /* MockCoordinator.swift in Sources */,
 				BA6BD7642811527F0079D399 /* Coordinator.swift in Sources */,
+				BA6BDA602811AB420079D399 /* StubRandomStringsDataService.swift in Sources */,
 				BA6BD77B2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */,
 				BA4BF07428109E030073C200 /* MVVMCAppUITestsLaunchTests.swift in Sources */,
 				BA6BD75728113E2A0079D399 /* AppCoordinator.swift in Sources */,
+				BA6BDA52281194280079D399 /* LoginCredentials.swift in Sources */,
 				BA4BF0992810AB7F0073C200 /* StringsListViewController.swift in Sources */,
 				BA6BD75F28114B4E0079D399 /* StringsListCoordinator.swift in Sources */,
 				BA4BF07228109E030073C200 /* MVVMCAppUITests.swift in Sources */,
@@ -446,6 +549,7 @@
 				BA6BD7732811749E0079D399 /* Endpoint.swift in Sources */,
 				BA6BD777281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD76A281165B70079D399 /* RandomStringCell.swift in Sources */,
+				BA6BDA5A2811A60A0079D399 /* RandomStringsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

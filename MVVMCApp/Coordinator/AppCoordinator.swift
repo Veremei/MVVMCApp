@@ -8,7 +8,12 @@
 import Foundation
 import UIKit
 
-final class AppCoordinator: BaseCoordinator {
+protocol AppCoordinatorProtocol {
+    func buildLogin()
+    func buildList()
+}
+
+class AppCoordinator: BaseCoordinator, AppCoordinatorProtocol {
 
     let window: UIWindow?
 
@@ -27,16 +32,15 @@ final class AppCoordinator: BaseCoordinator {
         buildLogin()
     }
 
-    private func buildLogin() {
+    func buildLogin() {
         let loginCoordinator = LoginCoordinator(navigation: rootViewController)
         loginCoordinator.coordinator = self
         appendChild(coordinator: loginCoordinator)
         loginCoordinator.start()
     }
 
-    private func buildList() {
+    func buildList() {
         let listCoordinator = StringsListCoordinator(navigation: rootViewController)
-//        listCoordinator.coordinator = self
         appendChild(coordinator: listCoordinator)
         listCoordinator.start()
     }

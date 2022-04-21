@@ -19,7 +19,6 @@ final class StringsListCoordinator: BaseCoordinator {
     override func start() {
         let viewModel = StringsListDefaultViewModel()
         let viewController = StringsListViewController(viewModel: viewModel)
-        viewModel.delegate = viewController
         navigation.setViewControllers([viewController], animated: true)
     }
 }

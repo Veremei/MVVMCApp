@@ -39,7 +39,7 @@ struct RandomStringURLBuilder {
             URLQueryItem(name: Parameters.rnd.rawValue, value: rnd)
         ]
 
-        return Endpoint(host: "random.org",
+        return Endpoint(host: "www.random.org",
                         path: "/strings/",
                         queryItems: params)
     }
