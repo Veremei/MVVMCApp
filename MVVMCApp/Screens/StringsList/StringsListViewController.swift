@@ -29,8 +29,8 @@ class StringsListViewController: UIViewController {
         tableView.register(UINib(nibName: "RandomStringCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         viewModel.fetchData()
     }
 }
@@ -55,6 +55,12 @@ extension StringsListViewController: UITableViewDataSource {
 extension StringsListViewController: StringsListViewDelegate {
     func didLoadData() {
         tableView.reloadData()
+    }
+
+    func loadingFailed(with error: Error) {
+        let alert = UIAlertController(title: "Error occurred", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
 }
 

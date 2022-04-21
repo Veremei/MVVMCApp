@@ -42,9 +42,15 @@ final class LoginViewController: UIViewController {
             switch result {
             case .success():
                 self.viewModel.success()
-            case .failure(_):
-                print("")
+            case .failure(let error):
+                self.presentAlert(with: error)
             }
         }
+    }
+
+    private func presentAlert(with error: Error) {
+        let alert = UIAlertController(title: error.localizedDescription, message: nil, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
 }

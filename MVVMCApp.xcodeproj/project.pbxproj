@@ -50,6 +50,15 @@
 		BA6BD76B281165B70079D399 /* RandomStringCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6BD767281165B70079D399 /* RandomStringCell.xib */; };
 		BA6BD76C281165B70079D399 /* RandomStringCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6BD767281165B70079D399 /* RandomStringCell.xib */; };
 		BA6BD76D281165B70079D399 /* RandomStringCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6BD767281165B70079D399 /* RandomStringCell.xib */; };
+		BA6BD7712811749E0079D399 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7702811749E0079D399 /* Endpoint.swift */; };
+		BA6BD7722811749E0079D399 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7702811749E0079D399 /* Endpoint.swift */; };
+		BA6BD7732811749E0079D399 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7702811749E0079D399 /* Endpoint.swift */; };
+		BA6BD775281175870079D399 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD774281175870079D399 /* NetworkService.swift */; };
+		BA6BD776281175870079D399 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD774281175870079D399 /* NetworkService.swift */; };
+		BA6BD777281175870079D399 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD774281175870079D399 /* NetworkService.swift */; };
+		BA6BD7792811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
+		BA6BD77A2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
+		BA6BD77B2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +102,9 @@
 		BA6BD7612811527F0079D399 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BA6BD766281165B70079D399 /* RandomStringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringCell.swift; sourceTree = "<group>"; };
 		BA6BD767281165B70079D399 /* RandomStringCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomStringCell.xib; sourceTree = "<group>"; };
+		BA6BD7702811749E0079D399 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		BA6BD774281175870079D399 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringURLBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,8 @@
 				BA4BF05028109E000073C200 /* AppDelegate.swift */,
 				BA4BF05228109E000073C200 /* SceneDelegate.swift */,
 				BA6BD7602811526E0079D399 /* Coordinator */,
+				BA6BD76E281174820079D399 /* Network */,
+				BA6BD76F2811748C0079D399 /* Models */,
 				BA4BF08028109F740073C200 /* Screens */,
 				BA4BF05928109E030073C200 /* Assets.xcassets */,
 				BA4BF05B28109E030073C200 /* LaunchScreen.storyboard */,
@@ -219,6 +233,23 @@
 				BA6BD767281165B70079D399 /* RandomStringCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA6BD76E281174820079D399 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BD774281175870079D399 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BA6BD76F2811748C0079D399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BD7702811749E0079D399 /* Endpoint.swift */,
+				BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +394,7 @@
 				BA6BD75528113E2A0079D399 /* AppCoordinator.swift in Sources */,
 				BA4BF08428109FB20073C200 /* LoginViewModel.swift in Sources */,
 				BA4BF0972810AB7F0073C200 /* StringsListViewController.swift in Sources */,
+				BA6BD7792811775F0079D399 /* RandomStringURLBuilder.swift in Sources */,
 				BA4BF05128109E000073C200 /* AppDelegate.swift in Sources */,
 				BA6BD75D28114B4E0079D399 /* StringsListCoordinator.swift in Sources */,
 				BA6BD7622811527F0079D399 /* Coordinator.swift in Sources */,
@@ -370,6 +402,8 @@
 				BA6BD75928114B290079D399 /* LoginCoordinator.swift in Sources */,
 				BA4BF05328109E000073C200 /* SceneDelegate.swift in Sources */,
 				BA4BF0922810AB490073C200 /* StringsListViewModel.swift in Sources */,
+				BA6BD7712811749E0079D399 /* Endpoint.swift in Sources */,
+				BA6BD775281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD768281165B70079D399 /* RandomStringCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4BF08928109FBD0073C200 /* LoginViewController.swift in Sources */,
+				BA6BD77A2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */,
 				BA6BD75E28114B4E0079D399 /* StringsListCoordinator.swift in Sources */,
 				BA4BF0982810AB7F0073C200 /* StringsListViewController.swift in Sources */,
 				BA6BD75A28114B290079D399 /* LoginCoordinator.swift in Sources */,
@@ -387,6 +422,8 @@
 				BA6BD75628113E2A0079D399 /* AppCoordinator.swift in Sources */,
 				BA6BD769281165B70079D399 /* RandomStringCell.swift in Sources */,
 				BA4BF0932810AB490073C200 /* StringsListViewModel.swift in Sources */,
+				BA6BD7722811749E0079D399 /* Endpoint.swift in Sources */,
+				BA6BD776281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD7632811527F0079D399 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +435,7 @@
 				BA4BF08A28109FBD0073C200 /* LoginViewController.swift in Sources */,
 				BA4BF0942810AB490073C200 /* StringsListViewModel.swift in Sources */,
 				BA6BD7642811527F0079D399 /* Coordinator.swift in Sources */,
+				BA6BD77B2811775F0079D399 /* RandomStringURLBuilder.swift in Sources */,
 				BA4BF07428109E030073C200 /* MVVMCAppUITestsLaunchTests.swift in Sources */,
 				BA6BD75728113E2A0079D399 /* AppCoordinator.swift in Sources */,
 				BA4BF0992810AB7F0073C200 /* StringsListViewController.swift in Sources */,
@@ -405,6 +443,8 @@
 				BA4BF07228109E030073C200 /* MVVMCAppUITests.swift in Sources */,
 				BA6BD75B28114B290079D399 /* LoginCoordinator.swift in Sources */,
 				BA4BF08628109FB20073C200 /* LoginViewModel.swift in Sources */,
+				BA6BD7732811749E0079D399 /* Endpoint.swift in Sources */,
+				BA6BD777281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD76A281165B70079D399 /* RandomStringCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

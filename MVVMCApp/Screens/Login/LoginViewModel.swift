@@ -7,8 +7,15 @@
 
 import Foundation
 
-enum LoginError: Error {
+enum LoginError: LocalizedError {
     case incorrectCredentials
+
+    var errorDescription: String? {
+        switch self {
+        case .incorrectCredentials:
+            return "Incorrect credentials"
+        }
+    }
 }
 
 protocol LoginViewModel {

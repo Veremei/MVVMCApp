@@ -9,6 +9,7 @@ import Foundation
 
 protocol StringsListViewDelegate: AnyObject {
     func didLoadData()
+    func loadingFailed(with error: Error)
 }
 
 protocol StringsListViewModel {
@@ -21,36 +22,38 @@ final class StringsListDefaultViewModel: StringsListViewModel {
 
     private(set) var strings: [String] = []
 
+    private var networkService: NetworkService
+
     weak var delegate: StringsListViewDelegate?
 
-    func fetchData() {
-        guard let url = URL(string: "https://www.random.org/strings/?num=10&len=8&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new") else {
-            return
-        }
+    init(networkService: NetworkService = NetworkService.shared) {
+        self.networkService = networkService
+    }
 
-        URLSession.shared.dataTask(with: url) { data, response, error in
+    func fetchData() {
+        let endpoint = RandomStringURLBuilder.build()
+
+        networkService.request(endpoint: endpoint) { result in
             DispatchQueue.main.async { [weak self] in
                 guard let self = self else {
                     return
                 }
 
-                if let _ = error {
-                    return
-                }
+                switch result {
+                case .success(let data):
+                    guard let dataString = String(data: data, encoding: .utf8) else {
+                        self.delegate?.loadingFailed(with: NetworkServiceError.parsingFailed)
+                        return
+                    }
 
-                guard let data = data else {
-                    return
+                    self.strings = dataString
+                        .split(whereSeparator: \.isNewline)
+                        .map(String.init)
+                    self.delegate?.didLoadData()
+                case .failure(let error):
+                    self.delegate?.loadingFailed(with: error)
                 }
-
-                guard let dataString = String(data: data, encoding: .utf8) else {
-                    return
-                }
-                self.strings = dataString
-                    .split(whereSeparator: \.isNewline)
-                    .map(String.init)
-                self.delegate?.didLoadData()
             }
-        }.resume()
+        }
     }
-
 }
