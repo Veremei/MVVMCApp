@@ -33,3 +33,8 @@ Pods
 
 # scan temporary files
 **/fastlane/test_output
+
+node_modules
+
+dist/
+reports/
