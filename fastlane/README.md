@@ -21,7 +21,7 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 [bundle exec] fastlane ios build_and_notify
 ```
 
-Description of what the lane does
+Message, build and run a test.
 
 ----
 

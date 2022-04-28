@@ -16,10 +16,32 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
-  lane :build_and_notify do
+
+  before_all do |lane|
     clear_derived_data
+  end
+
+  desc 'Message, build and run a test.'
+  lane :build_and_notify do
+    UI.error "--- To send steps message"
+    UI.error "--- you should start the bot"
+    UI.error "--- https://t.me/XWorkerBot"
+
+    branch = git_branch
+    version = get_version_number
+
+    telegram(
+      token: ENV['TG_BOT_TOKEN'],
+      chat_id: ENV['TG_CHAT_ID'],
+      text: "Started building #{ENV['APP_TARGET']} on #{branch} v.#{version}"
+    )
     xcbuild
     scan
+    telegram(
+      token: ENV['TG_BOT_TOKEN'],
+      chat_id: ENV['TG_CHAT_ID'],
+      text: "Built #{ENV['APP_TARGET']} on #{branch} v.#{version}"
+    )
   end
+
 end
