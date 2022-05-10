@@ -1,0 +1,47 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+  before_all do |lane|
+    clear_derived_data
+  end
+
+  desc 'Message, build and run a test.'
+  lane :build_and_notify do
+    UI.error "--- To send steps message"
+    UI.error "--- you should start the bot"
+    UI.error "--- https://t.me/XWorkerBot"
+
+    branch = git_branch
+    version = get_version_number
+
+    telegram(
+      token: ENV['TG_BOT_TOKEN'],
+      chat_id: ENV['TG_CHAT_ID'],
+      text: "Started building #{ENV['APP_TARGET']} on #{branch} v.#{version}"
+    )
+    xcbuild
+    scan
+    telegram(
+      token: ENV['TG_BOT_TOKEN'],
+      chat_id: ENV['TG_CHAT_ID'],
+      text: "Built #{ENV['APP_TARGET']} on #{branch} v.#{version}"
+    )
+  end
+
+end
