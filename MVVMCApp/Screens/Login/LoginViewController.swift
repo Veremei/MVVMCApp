@@ -37,19 +37,19 @@ final class LoginViewController: UIViewController {
             userTextField.text = creds.user
         }
     }
-    
+
     @IBAction func loginButtonTapped(_ sender: UIButton) {
         guard let user = userTextField.text,
               let password = passwordTextField.text else {
-                  return
-              }
+            return
+        }
         startLoading()
 
         viewModel.login(user: user, password: password) { [weak self] result in
             guard let self = self else {
                 return
             }
-            
+
             self.finishLoading()
 
             switch result {

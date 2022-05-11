@@ -15,7 +15,7 @@ final class StringsListCoordinator: BaseCoordinator {
     init(navigation: UINavigationController) {
         self.navigation = navigation
     }
-    
+
     override func start() {
         let viewModel = StringsListDefaultViewModel()
         let viewController = StringsListViewController(viewModel: viewModel)

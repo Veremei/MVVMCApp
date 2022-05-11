@@ -24,5 +24,4 @@ class RandomStringCell: UITableViewCell {
     func setTitle(text: String) {
         titleLabel.text = text
     }
-    
 }

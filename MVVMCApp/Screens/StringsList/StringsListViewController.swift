@@ -45,7 +45,9 @@ class StringsListViewController: UIViewController {
     }
 
     private func loadingFailed(with error: Error) {
-        let alert = UIAlertController(title: "Error occurred", message: error.localizedDescription, preferredStyle: .alert)
+        let alert = UIAlertController(title: "Error occurred",
+                                      message: error.localizedDescription,
+                                      preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
     }
@@ -67,4 +69,3 @@ extension StringsListViewController: UITableViewDataSource {
         return stringCell
     }
 }
-
