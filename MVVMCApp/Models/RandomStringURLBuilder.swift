@@ -20,13 +20,13 @@ struct RandomStringURLBuilder {
     }
 
     static func build(num: Int = 10,
-               len: Int = 8,
-               digits: Bool = true,
-               upperalpha: Bool = true,
-               loweralpha: Bool = true,
-               unique: Bool = true,
-               format: String = "plain",
-               rnd: String = "new"
+                      len: Int = 8,
+                      digits: Bool = true,
+                      upperalpha: Bool = true,
+                      loweralpha: Bool = true,
+                      unique: Bool = true,
+                      format: String = "plain",
+                      rnd: String = "new"
     ) -> Endpoint {
         let params: [URLQueryItem] = [
             URLQueryItem(name: Parameters.num.rawValue, value: "\(num)"),

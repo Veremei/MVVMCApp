@@ -7,12 +7,11 @@
 
 import Foundation
 
-
 final class StubRandomStringsDataService: RandomStringsDataProtocol {
     var requestResult: Result<[String], Error>?
 
     func loadStrings(completion: @escaping (Result<[String], Error>) -> Void) {
         completion(requestResult!)
     }
-    
+
 }

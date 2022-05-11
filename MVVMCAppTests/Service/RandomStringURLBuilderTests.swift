@@ -17,7 +17,6 @@ final class RandomStringURLBuilderTests: XCTestCase {
         XCTAssertEqual(url, expectedUrl)
     }
 
-
     func testBuildURLForNum() {
         let num = 5
         let expectedUrl = URL(string: "https://www.random.org/strings/?num=\(num)&len=8&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new")

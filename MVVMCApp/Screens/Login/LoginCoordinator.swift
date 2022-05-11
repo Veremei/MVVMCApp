@@ -16,7 +16,7 @@ final class LoginCoordinator: BaseCoordinator {
 
     private let navigation: UINavigationController
 
-    weak var coordinator : AppCoordinator!
+    weak var coordinator: AppCoordinator!
 
     init(navigation: UINavigationController) {
         self.navigation = navigation

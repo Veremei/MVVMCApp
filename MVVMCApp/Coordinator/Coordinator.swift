@@ -12,7 +12,7 @@ protocol Coordinator: AnyObject {
     func start()
 }
 
-extension Coordinator{
+extension Coordinator {
     func appendChild(coordinator: Coordinator) {
         childCoordinators.append(coordinator)
     }
