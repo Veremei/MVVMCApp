@@ -965,7 +965,7 @@
       "tempsPath" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MarathonCore.build",
       "wholeModuleOptimization" : false
     },
-    "C.MVVMCApp-debug.module" : {
+    "C.MVVMCApp-danger-debug.module" : {
       "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "importPath" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug",
       "inputs" : [
@@ -979,10 +979,10 @@
         }
       ],
       "isLibrary" : true,
-      "moduleName" : "MVVMCApp",
-      "moduleOutputPath" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp.swiftmodule",
+      "moduleName" : "MVVMCApp_danger",
+      "moduleOutputPath" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp_danger.swiftmodule",
       "objects" : [
-        "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp.build/Coordinator/Coordinator.swift.o"
+        "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp_danger.build/Coordinator/Coordinator.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -1004,7 +1004,7 @@
         "-parse-as-library",
         "-emit-objc-header",
         "-emit-objc-header-path",
-        "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp.build/MVVMCApp-Swift.h",
+        "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp_danger.build/MVVMCApp-danger-Swift.h",
         "-color-diagnostics",
         "-sdk",
         "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
@@ -1018,17 +1018,17 @@
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp.build/Coordinator/Coordinator.swift.o"
+          "name" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp_danger.build/Coordinator/Coordinator.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp.swiftmodule"
+          "name" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp_danger.swiftmodule"
         }
       ],
       "sources" : [
         "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Coordinator/Coordinator.swift"
       ],
-      "tempsPath" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp.build",
+      "tempsPath" : "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/MVVMCApp_danger.build",
       "wholeModuleOptimization" : false
     },
     "C.OctoKit-debug.module" : {
