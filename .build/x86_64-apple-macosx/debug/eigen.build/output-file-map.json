@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/eigen.build/master.swiftdeps"
+  },
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Coordinator/AppCoordinator.swift": {
+    "dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/eigen.build/Coordinator/AppCoordinator.d",
+    "object": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/eigen.build/Coordinator/AppCoordinator.swift.o",
+    "swiftmodule": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/eigen.build/Coordinator/AppCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/eigen.build/Coordinator/AppCoordinator.swiftdeps"
+  }
+}

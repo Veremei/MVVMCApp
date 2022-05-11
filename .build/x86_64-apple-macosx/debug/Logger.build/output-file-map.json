@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/Logger.build/master.swiftdeps"
+  },
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Logger/Sources/Logger/Logger.swift": {
+    "dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/Logger.build/Logger.d",
+    "object": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/Logger.build/Logger.swift.o",
+    "swiftmodule": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/Logger.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/Logger.build/Logger.swiftdeps"
+  }
+}

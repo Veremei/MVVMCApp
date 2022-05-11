@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/master.swiftdeps"
+  },
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerShellExecutor/ShellExecutor.swift": {
+    "dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor.d",
+    "object": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor.swift.o",
+    "swiftmodule": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor~partial.swiftmodule",
+    "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor.swiftdeps"
+  }
+}

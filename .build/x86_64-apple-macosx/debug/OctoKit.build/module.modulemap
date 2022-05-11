@@ -1,0 +1,4 @@
+module OctoKit {
+    header "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/OctoKit.build/OctoKit-Swift.h"
+    requires objc
+}

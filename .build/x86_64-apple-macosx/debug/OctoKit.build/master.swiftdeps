@@ -1,0 +1,41 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1652296839, 117156028]
+build_end_time: [1652296842, 906651973]
+inputs:
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Configuration.swift"
+  : [1652296725, 934928417]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/File.swift": [1652296725, 935217618]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Follow.swift": [1652296725, 935539722]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Gist.swift": [1652296725, 935822010]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Issue.swift": [1652296725, 936384677]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Label.swift": [1652296725, 936603307]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Milestone.swift"
+  : [1652296725, 936749935]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Octokit.swift"
+  : [1652296725, 937169551]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Parameters.swift"
+  : [1652296725, 937350749]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Plan.swift": [1652296725, 937514781]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/PreviewHeader.swift"
+  : [1652296725, 937667369]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/PublicKey.swift"
+  : [1652296725, 937810420]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/PullRequest.swift"
+  : [1652296725, 938039779]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Reactions.swift"
+  : [1652296725, 938198804]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Releases.swift"
+  : [1652296725, 938452720]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Repositories.swift"
+  : [1652296725, 938679695]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Review.swift": [1652296725, 938813209]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Stars.swift": [1652296725, 939006090]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Statuses.swift"
+  : [1652296725, 939165592]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/String+PercentEncoding.swift"
+  : [1652296725, 939290046]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/Time.swift": [1652296725, 939474582]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/URL+URLParameters.swift"
+  : [1652296725, 939696311]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/octokit.swift/OctoKit/User.swift": [1652296725, 939921855]

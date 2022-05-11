@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "cc8d7cc55be3f0b45407c1d49f03ee17a224954b9bd1166cd075381672d6eedd"
+build_start_time: [1652296996, 211833000]
+build_end_time: [1652296996, 631846904]
+inputs:
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Runner/Commands/Edit.swift"
+  : [1652296725, 325554370]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Runner/Commands/RunDangerJS.swift"
+  : [1652296725, 325762271]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Runner/Commands/Runner.swift"
+  : [1652296725, 325980663]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Runner/MarathonScriptManager.swift"
+  : [1652296725, 326186895]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Runner/Script+Imports.swift"
+  : [1652296725, 326482534]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Runner/main.swift": [1652296725, 326652050]

@@ -1,0 +1,4 @@
+module RequestKit {
+    header "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RequestKit.build/RequestKit-Swift.h"
+    requires objc
+}
