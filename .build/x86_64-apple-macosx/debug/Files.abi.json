@@ -1,0 +1,4281 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Files",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FileSystem",
+      "printedName": "FileSystem",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "fileManager",
+          "printedName": "fileManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files10FileSystemC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileE0Cvp",
+          "mangledName": "$s5Files10FileSystemC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileE0Cvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Item",
+          "printedName": "Item",
+          "children": [
+            {
+              "kind": "TypeDecl",
+              "name": "PathError",
+              "printedName": "PathError",
+              "children": [
+                {
+                  "kind": "Var",
+                  "name": "empty",
+                  "printedName": "empty",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Files.FileSystem.Item.PathError.Type) -> Files.FileSystem.Item.PathError",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "PathError",
+                          "printedName": "Files.FileSystem.Item.PathError",
+                          "usr": "s:5Files10FileSystemC4ItemC9PathErrorO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Metatype",
+                          "printedName": "Files.FileSystem.Item.PathError.Type",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "PathError",
+                              "printedName": "Files.FileSystem.Item.PathError",
+                              "usr": "s:5Files10FileSystemC4ItemC9PathErrorO"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "EnumElement",
+                  "usr": "s:5Files10FileSystemC4ItemC9PathErrorO5emptyyA2GmF",
+                  "mangledName": "$s5Files10FileSystemC4ItemC9PathErrorO5emptyyA2GmF",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "RawDocComment"
+                  ],
+                  "fixedbinaryorder": 0
+                },
+                {
+                  "kind": "Var",
+                  "name": "invalid",
+                  "printedName": "invalid",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Files.FileSystem.Item.PathError.Type) -> (Swift.String) -> Files.FileSystem.Item.PathError",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(Swift.String) -> Files.FileSystem.Item.PathError",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "PathError",
+                              "printedName": "Files.FileSystem.Item.PathError",
+                              "usr": "s:5Files10FileSystemC4ItemC9PathErrorO"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "String",
+                              "printedName": "Swift.String",
+                              "usr": "s:SS"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Metatype",
+                          "printedName": "Files.FileSystem.Item.PathError.Type",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "PathError",
+                              "printedName": "Files.FileSystem.Item.PathError",
+                              "usr": "s:5Files10FileSystemC4ItemC9PathErrorO"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "EnumElement",
+                  "usr": "s:5Files10FileSystemC4ItemC9PathErrorO7invalidyAGSScAGmF",
+                  "mangledName": "$s5Files10FileSystemC4ItemC9PathErrorO7invalidyAGSScAGmF",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "RawDocComment"
+                  ],
+                  "fixedbinaryorder": 1
+                },
+                {
+                  "kind": "Function",
+                  "name": "==",
+                  "printedName": "==(_:_:)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathError",
+                      "printedName": "Files.FileSystem.Item.PathError",
+                      "usr": "s:5Files10FileSystemC4ItemC9PathErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathError",
+                      "printedName": "Files.FileSystem.Item.PathError",
+                      "usr": "s:5Files10FileSystemC4ItemC9PathErrorO"
+                    }
+                  ],
+                  "declKind": "Func",
+                  "usr": "s:5Files10FileSystemC4ItemC9PathErrorO2eeoiySbAG_AGtFZ",
+                  "mangledName": "$s5Files10FileSystemC4ItemC9PathErrorO2eeoiySbAG_AGtFZ",
+                  "moduleName": "Files",
+                  "static": true,
+                  "declAttributes": [
+                    "AccessControl",
+                    "RawDocComment"
+                  ],
+                  "funcSelfKind": "NonMutating"
+                },
+                {
+                  "kind": "Var",
+                  "name": "description",
+                  "printedName": "description",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Var",
+                  "usr": "s:5Files10FileSystemC4ItemC9PathErrorO11descriptionSSvp",
+                  "mangledName": "$s5Files10FileSystemC4ItemC9PathErrorO11descriptionSSvp",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "AccessControl",
+                    "RawDocComment"
+                  ],
+                  "accessors": [
+                    {
+                      "kind": "Accessor",
+                      "name": "Get",
+                      "printedName": "Get()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "declKind": "Accessor",
+                      "usr": "s:5Files10FileSystemC4ItemC9PathErrorO11descriptionSSvg",
+                      "mangledName": "$s5Files10FileSystemC4ItemC9PathErrorO11descriptionSSvg",
+                      "moduleName": "Files",
+                      "accessorKind": "get"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Enum",
+              "usr": "s:5Files10FileSystemC4ItemC9PathErrorO",
+              "mangledName": "$s5Files10FileSystemC4ItemC9PathErrorO",
+              "moduleName": "Files",
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "isEnumExhaustive": true,
+              "conformances": [
+                {
+                  "kind": "Conformance",
+                  "name": "Error",
+                  "printedName": "Error",
+                  "usr": "s:s5ErrorP",
+                  "mangledName": "$ss5ErrorP"
+                },
+                {
+                  "kind": "Conformance",
+                  "name": "Equatable",
+                  "printedName": "Equatable",
+                  "usr": "s:SQ",
+                  "mangledName": "$sSQ"
+                },
+                {
+                  "kind": "Conformance",
+                  "name": "CustomStringConvertible",
+                  "printedName": "CustomStringConvertible",
+                  "usr": "s:s23CustomStringConvertibleP",
+                  "mangledName": "$ss23CustomStringConvertibleP"
+                },
+                {
+                  "kind": "Conformance",
+                  "name": "Sendable",
+                  "printedName": "Sendable",
+                  "usr": "s:s8SendableP",
+                  "mangledName": "$ss8SendableP"
+                }
+              ]
+            },
+            {
+              "kind": "TypeDecl",
+              "name": "OperationError",
+              "printedName": "OperationError",
+              "children": [
+                {
+                  "kind": "Var",
+                  "name": "renameFailed",
+                  "printedName": "renameFailed",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Files.FileSystem.Item.OperationError.Type) -> (Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Item",
+                              "printedName": "Files.FileSystem.Item",
+                              "usr": "s:5Files10FileSystemC4ItemC"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Metatype",
+                          "printedName": "Files.FileSystem.Item.OperationError.Type",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "EnumElement",
+                  "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO12renameFailedyAgEcAGmF",
+                  "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO12renameFailedyAgEcAGmF",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "RawDocComment"
+                  ],
+                  "fixedbinaryorder": 0
+                },
+                {
+                  "kind": "Var",
+                  "name": "moveFailed",
+                  "printedName": "moveFailed",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Files.FileSystem.Item.OperationError.Type) -> (Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Item",
+                              "printedName": "Files.FileSystem.Item",
+                              "usr": "s:5Files10FileSystemC4ItemC"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Metatype",
+                          "printedName": "Files.FileSystem.Item.OperationError.Type",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "EnumElement",
+                  "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO10moveFailedyAgEcAGmF",
+                  "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO10moveFailedyAgEcAGmF",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "RawDocComment"
+                  ],
+                  "fixedbinaryorder": 1
+                },
+                {
+                  "kind": "Var",
+                  "name": "copyFailed",
+                  "printedName": "copyFailed",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Files.FileSystem.Item.OperationError.Type) -> (Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Item",
+                              "printedName": "Files.FileSystem.Item",
+                              "usr": "s:5Files10FileSystemC4ItemC"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Metatype",
+                          "printedName": "Files.FileSystem.Item.OperationError.Type",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "EnumElement",
+                  "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO10copyFailedyAgEcAGmF",
+                  "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO10copyFailedyAgEcAGmF",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "RawDocComment"
+                  ],
+                  "fixedbinaryorder": 2
+                },
+                {
+                  "kind": "Var",
+                  "name": "deleteFailed",
+                  "printedName": "deleteFailed",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Files.FileSystem.Item.OperationError.Type) -> (Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(Files.FileSystem.Item) -> Files.FileSystem.Item.OperationError",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Item",
+                              "printedName": "Files.FileSystem.Item",
+                              "usr": "s:5Files10FileSystemC4ItemC"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Metatype",
+                          "printedName": "Files.FileSystem.Item.OperationError.Type",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OperationError",
+                              "printedName": "Files.FileSystem.Item.OperationError",
+                              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "EnumElement",
+                  "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO12deleteFailedyAgEcAGmF",
+                  "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO12deleteFailedyAgEcAGmF",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "RawDocComment"
+                  ],
+                  "fixedbinaryorder": 3
+                },
+                {
+                  "kind": "Function",
+                  "name": "==",
+                  "printedName": "==(_:_:)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OperationError",
+                      "printedName": "Files.FileSystem.Item.OperationError",
+                      "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OperationError",
+                      "printedName": "Files.FileSystem.Item.OperationError",
+                      "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO"
+                    }
+                  ],
+                  "declKind": "Func",
+                  "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO2eeoiySbAG_AGtFZ",
+                  "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO2eeoiySbAG_AGtFZ",
+                  "moduleName": "Files",
+                  "static": true,
+                  "declAttributes": [
+                    "AccessControl",
+                    "RawDocComment"
+                  ],
+                  "funcSelfKind": "NonMutating"
+                },
+                {
+                  "kind": "Var",
+                  "name": "description",
+                  "printedName": "description",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Var",
+                  "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO11descriptionSSvp",
+                  "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO11descriptionSSvp",
+                  "moduleName": "Files",
+                  "declAttributes": [
+                    "AccessControl",
+                    "RawDocComment"
+                  ],
+                  "accessors": [
+                    {
+                      "kind": "Accessor",
+                      "name": "Get",
+                      "printedName": "Get()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "declKind": "Accessor",
+                      "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO11descriptionSSvg",
+                      "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO11descriptionSSvg",
+                      "moduleName": "Files",
+                      "accessorKind": "get"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Enum",
+              "usr": "s:5Files10FileSystemC4ItemC14OperationErrorO",
+              "mangledName": "$s5Files10FileSystemC4ItemC14OperationErrorO",
+              "moduleName": "Files",
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "isEnumExhaustive": true,
+              "conformances": [
+                {
+                  "kind": "Conformance",
+                  "name": "Error",
+                  "printedName": "Error",
+                  "usr": "s:s5ErrorP",
+                  "mangledName": "$ss5ErrorP"
+                },
+                {
+                  "kind": "Conformance",
+                  "name": "Equatable",
+                  "printedName": "Equatable",
+                  "usr": "s:SQ",
+                  "mangledName": "$sSQ"
+                },
+                {
+                  "kind": "Conformance",
+                  "name": "CustomStringConvertible",
+                  "printedName": "CustomStringConvertible",
+                  "usr": "s:s23CustomStringConvertibleP",
+                  "mangledName": "$ss23CustomStringConvertibleP"
+                },
+                {
+                  "kind": "Conformance",
+                  "name": "Sendable",
+                  "printedName": "Sendable",
+                  "usr": "s:s8SendableP",
+                  "mangledName": "$ss8SendableP"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "==",
+              "printedName": "==(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Item",
+                  "printedName": "Files.FileSystem.Item",
+                  "usr": "s:5Files10FileSystemC4ItemC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Item",
+                  "printedName": "Files.FileSystem.Item",
+                  "usr": "s:5Files10FileSystemC4ItemC"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files10FileSystemC4ItemC2eeoiySbAE_AEtFZ",
+              "mangledName": "$s5Files10FileSystemC4ItemC2eeoiySbAE_AEtFZ",
+              "moduleName": "Files",
+              "static": true,
+              "declAttributes": [
+                "Final",
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "path",
+              "printedName": "path",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC4pathSSvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC4pathSSvp",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "HasStorage",
+                "SetterAccess",
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "fixedbinaryorder": 0,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files10FileSystemC4ItemC4pathSSvg",
+                  "mangledName": "$s5Files10FileSystemC4ItemC4pathSSvg",
+                  "moduleName": "Files",
+                  "implicit": true,
+                  "isOpen": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "name",
+              "printedName": "name",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC4nameSSvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC4nameSSvp",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "HasStorage",
+                "SetterAccess",
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "fixedbinaryorder": 1,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files10FileSystemC4ItemC4nameSSvg",
+                  "mangledName": "$s5Files10FileSystemC4ItemC4nameSSvg",
+                  "moduleName": "Files",
+                  "implicit": true,
+                  "isOpen": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "nameExcludingExtension",
+              "printedName": "nameExcludingExtension",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC22nameExcludingExtensionSSvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC22nameExcludingExtensionSSvp",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files10FileSystemC4ItemC22nameExcludingExtensionSSvg",
+                  "mangledName": "$s5Files10FileSystemC4ItemC22nameExcludingExtensionSSvg",
+                  "moduleName": "Files",
+                  "isOpen": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "extension",
+              "printedName": "extension",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC9extensionSSSgvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC9extensionSSSgvp",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.String?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files10FileSystemC4ItemC9extensionSSSgvg",
+                  "mangledName": "$s5Files10FileSystemC4ItemC9extensionSSSgvg",
+                  "moduleName": "Files",
+                  "isOpen": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "modificationDate",
+              "printedName": "modificationDate",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC16modificationDate10Foundation0F0Vvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC16modificationDate10Foundation0F0Vvp",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "Lazy",
+                "SetterAccess",
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files10FileSystemC4ItemC16modificationDate10Foundation0F0Vvg",
+                  "mangledName": "$s5Files10FileSystemC4ItemC16modificationDate10Foundation0F0Vvg",
+                  "moduleName": "Files",
+                  "implicit": true,
+                  "isOpen": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "$__lazy_storage_$_modificationDate",
+              "printedName": "$__lazy_storage_$_modificationDate",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC34$__lazy_storage_$_modificationDate33_99111A396971EDD7D2B7E9843B3E53A7LL10Foundation0H0VSgvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC34$__lazy_storage_$_modificationDate33_99111A396971EDD7D2B7E9843B3E53A7LL10Foundation0H0VSgvp",
+              "moduleName": "Files",
+              "implicit": true,
+              "isInternal": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage",
+                "Final"
+              ],
+              "fixedbinaryorder": 2,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "parent",
+              "printedName": "parent",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Files.Folder?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Folder",
+                      "printedName": "Files.Folder",
+                      "usr": "s:5Files6FolderC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC6parentAA6FolderCSgvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC6parentAA6FolderCSgvp",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Files.Folder?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Folder",
+                          "printedName": "Files.Folder",
+                          "usr": "s:5Files6FolderC"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files10FileSystemC4ItemC6parentAA6FolderCSgvg",
+                  "mangledName": "$s5Files10FileSystemC4ItemC6parentAA6FolderCSgvg",
+                  "moduleName": "Files",
+                  "isOpen": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "description",
+              "printedName": "description",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC11descriptionSSvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC11descriptionSSvp",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files10FileSystemC4ItemC11descriptionSSvg",
+                  "mangledName": "$s5Files10FileSystemC4ItemC11descriptionSSvg",
+                  "moduleName": "Files",
+                  "isOpen": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "kind",
+              "printedName": "kind",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Kind",
+                  "printedName": "Files.FileSystem.Item.Kind",
+                  "usr": "s:5Files10FileSystemC4ItemC4Kind33_99111A396971EDD7D2B7E9843B3E53A7LLO"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC4kind33_99111A396971EDD7D2B7E9843B3E53A7LLAE4KindAGLLOvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC4kind33_99111A396971EDD7D2B7E9843B3E53A7LLAE4KindAGLLOvp",
+              "moduleName": "Files",
+              "isInternal": true,
+              "declAttributes": [
+                "Final",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 3,
+              "isLet": true,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "fileManager",
+              "printedName": "fileManager",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FileManager",
+                  "printedName": "Foundation.FileManager",
+                  "usr": "c:objc(cs)NSFileManager"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files10FileSystemC4ItemC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileF0Cvp",
+              "mangledName": "$s5Files10FileSystemC4ItemC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileF0Cvp",
+              "moduleName": "Files",
+              "isInternal": true,
+              "declAttributes": [
+                "Final",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 4,
+              "isLet": true,
+              "hasStorage": true
+            },
+            {
+              "kind": "Function",
+              "name": "rename",
+              "printedName": "rename(to:keepExtension:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "hasDefaultArg": true,
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files10FileSystemC4ItemC6rename2to13keepExtensionySS_SbtKF",
+              "mangledName": "$s5Files10FileSystemC4ItemC6rename2to13keepExtensionySS_SbtKF",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "throwing": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Function",
+              "name": "move",
+              "printedName": "move(to:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files10FileSystemC4ItemC4move2toyAA6FolderC_tKF",
+              "mangledName": "$s5Files10FileSystemC4ItemC4move2toyAA6FolderC_tKF",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "throwing": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Function",
+              "name": "delete",
+              "printedName": "delete()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files10FileSystemC4ItemC6deleteyyKF",
+              "mangledName": "$s5Files10FileSystemC4ItemC6deleteyyKF",
+              "moduleName": "Files",
+              "isOpen": true,
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "throwing": true,
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Class",
+          "usr": "s:5Files10FileSystemC4ItemC",
+          "mangledName": "$s5Files10FileSystemC4ItemC",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "hasMissingDesignatedInitializers": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "CustomStringConvertible",
+              "printedName": "CustomStringConvertible",
+              "usr": "s:s23CustomStringConvertibleP",
+              "mangledName": "$ss23CustomStringConvertibleP"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "temporaryFolder",
+          "printedName": "temporaryFolder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files10FileSystemC15temporaryFolderAA0E0Cvp",
+          "mangledName": "$s5Files10FileSystemC15temporaryFolderAA0E0Cvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files10FileSystemC15temporaryFolderAA0E0Cvg",
+              "mangledName": "$s5Files10FileSystemC15temporaryFolderAA0E0Cvg",
+              "moduleName": "Files",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "homeFolder",
+          "printedName": "homeFolder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files10FileSystemC10homeFolderAA0E0Cvp",
+          "mangledName": "$s5Files10FileSystemC10homeFolderAA0E0Cvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files10FileSystemC10homeFolderAA0E0Cvg",
+              "mangledName": "$s5Files10FileSystemC10homeFolderAA0E0Cvg",
+              "moduleName": "Files",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "currentFolder",
+          "printedName": "currentFolder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files10FileSystemC13currentFolderAA0E0Cvp",
+          "mangledName": "$s5Files10FileSystemC13currentFolderAA0E0Cvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files10FileSystemC13currentFolderAA0E0Cvg",
+              "mangledName": "$s5Files10FileSystemC13currentFolderAA0E0Cvg",
+              "moduleName": "Files",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(using:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileSystem",
+              "printedName": "Files.FileSystem",
+              "usr": "s:5Files10FileSystemC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "hasDefaultArg": true,
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Files10FileSystemC5usingACSo13NSFileManagerC_tcfc",
+          "mangledName": "$s5Files10FileSystemC5usingACSo13NSFileManagerC_tcfc",
+          "moduleName": "Files",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "createFile",
+          "printedName": "createFile(at:contents:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "hasDefaultArg": true,
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files10FileSystemC06createB02at8contentsAA0B0CSS_10Foundation4DataVtKF",
+          "mangledName": "$s5Files10FileSystemC06createB02at8contentsAA0B0CSS_10Foundation4DataVtKF",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createFileIfNeeded",
+          "printedName": "createFileIfNeeded(at:contents:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "hasDefaultArg": true,
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files10FileSystemC06createB8IfNeeded2at8contentsAA0B0CSS_10Foundation4DataVtKF",
+          "mangledName": "$s5Files10FileSystemC06createB8IfNeeded2at8contentsAA0B0CSS_10Foundation4DataVtKF",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createFolder",
+          "printedName": "createFolder(at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files10FileSystemC12createFolder2atAA0E0CSS_tKF",
+          "mangledName": "$s5Files10FileSystemC12createFolder2atAA0E0CSS_tKF",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createFolderIfNeeded",
+          "printedName": "createFolderIfNeeded(at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files10FileSystemC20createFolderIfNeeded2atAA0E0CSS_tKF",
+          "mangledName": "$s5Files10FileSystemC20createFolderIfNeeded2atAA0E0CSS_tKF",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "documentFolder",
+          "printedName": "documentFolder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Files.Folder?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files10FileSystemC14documentFolderAA0E0CSgvp",
+          "mangledName": "$s5Files10FileSystemC14documentFolderAA0E0CSgvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Files.Folder?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Folder",
+                      "printedName": "Files.Folder",
+                      "usr": "s:5Files6FolderC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files10FileSystemC14documentFolderAA0E0CSgvg",
+              "mangledName": "$s5Files10FileSystemC14documentFolderAA0E0CSgvg",
+              "moduleName": "Files",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "libraryFolder",
+          "printedName": "libraryFolder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Files.Folder?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files10FileSystemC13libraryFolderAA0E0CSgvp",
+          "mangledName": "$s5Files10FileSystemC13libraryFolderAA0E0CSgvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Files.Folder?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Folder",
+                      "printedName": "Files.Folder",
+                      "usr": "s:5Files6FolderC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files10FileSystemC13libraryFolderAA0E0CSgvg",
+              "mangledName": "$s5Files10FileSystemC13libraryFolderAA0E0CSgvg",
+              "moduleName": "Files",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Files10FileSystemC",
+      "mangledName": "$s5Files10FileSystemC",
+      "moduleName": "Files",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "File",
+      "printedName": "File",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "Error",
+          "printedName": "Error",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "writeFailed",
+              "printedName": "writeFailed",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Files.File.Error.Type) -> Files.File.Error",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Files.File.Error",
+                      "usr": "s:5Files4FileC5ErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Files.File.Error.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Files.File.Error",
+                          "usr": "s:5Files4FileC5ErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:5Files4FileC5ErrorO11writeFailedyA2EmF",
+              "mangledName": "$s5Files4FileC5ErrorO11writeFailedyA2EmF",
+              "moduleName": "Files",
+              "declAttributes": [
+                "RawDocComment"
+              ],
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "readFailed",
+              "printedName": "readFailed",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Files.File.Error.Type) -> Files.File.Error",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Files.File.Error",
+                      "usr": "s:5Files4FileC5ErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Files.File.Error.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Files.File.Error",
+                          "usr": "s:5Files4FileC5ErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:5Files4FileC5ErrorO10readFailedyA2EmF",
+              "mangledName": "$s5Files4FileC5ErrorO10readFailedyA2EmF",
+              "moduleName": "Files",
+              "declAttributes": [
+                "RawDocComment"
+              ],
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "description",
+              "printedName": "description",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files4FileC5ErrorO11descriptionSSvp",
+              "mangledName": "$s5Files4FileC5ErrorO11descriptionSSvp",
+              "moduleName": "Files",
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files4FileC5ErrorO11descriptionSSvg",
+                  "mangledName": "$s5Files4FileC5ErrorO11descriptionSSvg",
+                  "moduleName": "Files",
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_enum_equals",
+              "printedName": "__derived_enum_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Files.File.Error",
+                  "usr": "s:5Files4FileC5ErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Files.File.Error",
+                  "usr": "s:5Files4FileC5ErrorO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files4FileC5ErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "mangledName": "$s5Files4FileC5ErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "moduleName": "Files",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Implements"
+              ],
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "hashValue",
+              "printedName": "hashValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files4FileC5ErrorO9hashValueSivp",
+              "mangledName": "$s5Files4FileC5ErrorO9hashValueSivp",
+              "moduleName": "Files",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files4FileC5ErrorO9hashValueSivg",
+                  "mangledName": "$s5Files4FileC5ErrorO9hashValueSivg",
+                  "moduleName": "Files",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "hash",
+              "printedName": "hash(into:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hasher",
+                  "printedName": "Swift.Hasher",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:s6HasherV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files4FileC5ErrorO4hash4intoys6HasherVz_tF",
+              "mangledName": "$s5Files4FileC5ErrorO4hash4intoys6HasherVz_tF",
+              "moduleName": "Files",
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:5Files4FileC5ErrorO",
+          "mangledName": "$s5Files4FileC5ErrorO",
+          "moduleName": "Files",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Error",
+              "printedName": "Error",
+              "usr": "s:s5ErrorP",
+              "mangledName": "$ss5ErrorP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "CustomStringConvertible",
+              "printedName": "CustomStringConvertible",
+              "usr": "s:s23CustomStringConvertibleP",
+              "mangledName": "$ss23CustomStringConvertibleP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(path:using:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "hasDefaultArg": true,
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Files4FileC4path5usingACSS_So13NSFileManagerCtKcfc",
+          "mangledName": "$s5Files4FileC4path5usingACSS_So13NSFileManagerCtKcfc",
+          "moduleName": "Files",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "read",
+          "printedName": "read()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC4read10Foundation4DataVyKF",
+          "mangledName": "$s5Files4FileC4read10Foundation4DataVyKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "readAsString",
+          "printedName": "readAsString(encoding:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoding",
+              "printedName": "Swift.String.Encoding",
+              "hasDefaultArg": true,
+              "usr": "s:SS10FoundationE8EncodingV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC12readAsString8encodingS2S10FoundationE8EncodingV_tKF",
+          "mangledName": "$s5Files4FileC12readAsString8encodingS2S10FoundationE8EncodingV_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "readAsInt",
+          "printedName": "readAsInt()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC9readAsIntSiyKF",
+          "mangledName": "$s5Files4FileC9readAsIntSiyKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "write",
+          "printedName": "write(data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC5write4datay10Foundation4DataV_tKF",
+          "mangledName": "$s5Files4FileC5write4datay10Foundation4DataV_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "write",
+          "printedName": "write(string:encoding:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoding",
+              "printedName": "Swift.String.Encoding",
+              "hasDefaultArg": true,
+              "usr": "s:SS10FoundationE8EncodingV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC5write6string8encodingySS_SS10FoundationE8EncodingVtKF",
+          "mangledName": "$s5Files4FileC5write6string8encodingySS_SS10FoundationE8EncodingVtKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "append",
+          "printedName": "append(data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC6append4datay10Foundation4DataV_tKF",
+          "mangledName": "$s5Files4FileC6append4datay10Foundation4DataV_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "append",
+          "printedName": "append(string:encoding:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoding",
+              "printedName": "Swift.String.Encoding",
+              "hasDefaultArg": true,
+              "usr": "s:SS10FoundationE8EncodingV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC6append6string8encodingySS_SS10FoundationE8EncodingVtKF",
+          "mangledName": "$s5Files4FileC6append6string8encodingySS_SS10FoundationE8EncodingVtKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "copy",
+          "printedName": "copy(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files4FileC4copy2toAcA6FolderC_tKF",
+          "mangledName": "$s5Files4FileC4copy2toAcA6FolderC_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Files4FileC",
+      "mangledName": "$s5Files4FileC",
+      "moduleName": "Files",
+      "declAttributes": [
+        "Final",
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "superclassUsr": "s:5Files10FileSystemC4ItemC",
+      "hasMissingDesignatedInitializers": true,
+      "superclassNames": [
+        "Files.FileSystem.Item"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "FileSystemIterable",
+          "printedName": "FileSystemIterable",
+          "usr": "s:5Files18FileSystemIterableP",
+          "mangledName": "$s5Files18FileSystemIterableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Folder",
+      "printedName": "Folder",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "Error",
+          "printedName": "Error",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "creatingFolderFailed",
+              "printedName": "creatingFolderFailed",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Files.Folder.Error.Type) -> Files.Folder.Error",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Files.Folder.Error",
+                      "usr": "s:5Files6FolderC5ErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Files.Folder.Error.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Files.Folder.Error",
+                          "usr": "s:5Files6FolderC5ErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:5Files6FolderC5ErrorO08creatingB6FailedyA2EmF",
+              "mangledName": "$s5Files6FolderC5ErrorO08creatingB6FailedyA2EmF",
+              "moduleName": "Files",
+              "declAttributes": [
+                "RawDocComment"
+              ],
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "description",
+              "printedName": "description",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files6FolderC5ErrorO11descriptionSSvp",
+              "mangledName": "$s5Files6FolderC5ErrorO11descriptionSSvp",
+              "moduleName": "Files",
+              "declAttributes": [
+                "AccessControl",
+                "RawDocComment"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files6FolderC5ErrorO11descriptionSSvg",
+                  "mangledName": "$s5Files6FolderC5ErrorO11descriptionSSvg",
+                  "moduleName": "Files",
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_enum_equals",
+              "printedName": "__derived_enum_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Files.Folder.Error",
+                  "usr": "s:5Files6FolderC5ErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Files.Folder.Error",
+                  "usr": "s:5Files6FolderC5ErrorO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files6FolderC5ErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "mangledName": "$s5Files6FolderC5ErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "moduleName": "Files",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Implements"
+              ],
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "hashValue",
+              "printedName": "hashValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:5Files6FolderC5ErrorO9hashValueSivp",
+              "mangledName": "$s5Files6FolderC5ErrorO9hashValueSivp",
+              "moduleName": "Files",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:5Files6FolderC5ErrorO9hashValueSivg",
+                  "mangledName": "$s5Files6FolderC5ErrorO9hashValueSivg",
+                  "moduleName": "Files",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "hash",
+              "printedName": "hash(into:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hasher",
+                  "printedName": "Swift.Hasher",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:s6HasherV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:5Files6FolderC5ErrorO4hash4intoys6HasherVz_tF",
+              "mangledName": "$s5Files6FolderC5ErrorO4hash4intoys6HasherVz_tF",
+              "moduleName": "Files",
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:5Files6FolderC5ErrorO",
+          "mangledName": "$s5Files6FolderC5ErrorO",
+          "moduleName": "Files",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Error",
+              "printedName": "Error",
+              "usr": "s:s5ErrorP",
+              "mangledName": "$ss5ErrorP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "CustomStringConvertible",
+              "printedName": "CustomStringConvertible",
+              "usr": "s:s23CustomStringConvertibleP",
+              "mangledName": "$ss23CustomStringConvertibleP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "files",
+          "printedName": "files",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileSystemSequence",
+              "printedName": "Files.FileSystemSequence<Files.File>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "File",
+                  "printedName": "Files.File",
+                  "usr": "s:5Files4FileC"
+                }
+              ],
+              "usr": "s:5Files18FileSystemSequenceC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files6FolderC5filesAA18FileSystemSequenceCyAA0D0CGvp",
+          "mangledName": "$s5Files6FolderC5filesAA18FileSystemSequenceCyAA0D0CGvp",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FileSystemSequence",
+                  "printedName": "Files.FileSystemSequence<Files.File>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "File",
+                      "printedName": "Files.File",
+                      "usr": "s:5Files4FileC"
+                    }
+                  ],
+                  "usr": "s:5Files18FileSystemSequenceC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files6FolderC5filesAA18FileSystemSequenceCyAA0D0CGvg",
+              "mangledName": "$s5Files6FolderC5filesAA18FileSystemSequenceCyAA0D0CGvg",
+              "moduleName": "Files",
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "subfolders",
+          "printedName": "subfolders",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileSystemSequence",
+              "printedName": "Files.FileSystemSequence<Files.Folder>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "usr": "s:5Files18FileSystemSequenceC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files6FolderC10subfoldersAA18FileSystemSequenceCyACGvp",
+          "mangledName": "$s5Files6FolderC10subfoldersAA18FileSystemSequenceCyACGvp",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FileSystemSequence",
+                  "printedName": "Files.FileSystemSequence<Files.Folder>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Folder",
+                      "printedName": "Files.Folder",
+                      "usr": "s:5Files6FolderC"
+                    }
+                  ],
+                  "usr": "s:5Files18FileSystemSequenceC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files6FolderC10subfoldersAA18FileSystemSequenceCyACGvg",
+              "mangledName": "$s5Files6FolderC10subfoldersAA18FileSystemSequenceCyACGvg",
+              "moduleName": "Files",
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "current",
+          "printedName": "current",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files6FolderC7currentACvpZ",
+          "mangledName": "$s5Files6FolderC7currentACvpZ",
+          "moduleName": "Files",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files6FolderC7currentACvgZ",
+              "mangledName": "$s5Files6FolderC7currentACvgZ",
+              "moduleName": "Files",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "home",
+          "printedName": "home",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files6FolderC4homeACvpZ",
+          "mangledName": "$s5Files6FolderC4homeACvpZ",
+          "moduleName": "Files",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files6FolderC4homeACvgZ",
+              "mangledName": "$s5Files6FolderC4homeACvgZ",
+              "moduleName": "Files",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "temporary",
+          "printedName": "temporary",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files6FolderC9temporaryACvpZ",
+          "mangledName": "$s5Files6FolderC9temporaryACvpZ",
+          "moduleName": "Files",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files6FolderC9temporaryACvgZ",
+              "mangledName": "$s5Files6FolderC9temporaryACvgZ",
+              "moduleName": "Files",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(path:using:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "hasDefaultArg": true,
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Files6FolderC4path5usingACSS_So13NSFileManagerCtKcfc",
+          "mangledName": "$s5Files6FolderC4path5usingACSS_So13NSFileManagerCtKcfc",
+          "moduleName": "Files",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "file",
+          "printedName": "file(named:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC4file5namedAA4FileCSS_tKF",
+          "mangledName": "$s5Files6FolderC4file5namedAA4FileCSS_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "file",
+          "printedName": "file(atPath:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC4file6atPathAA4FileCSS_tKF",
+          "mangledName": "$s5Files6FolderC4file6atPathAA4FileCSS_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "containsFile",
+          "printedName": "containsFile(named:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC12containsFile5namedSbSS_tF",
+          "mangledName": "$s5Files6FolderC12containsFile5namedSbSS_tF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "contains",
+          "printedName": "contains(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC8containsySbAA4FileCF",
+          "mangledName": "$s5Files6FolderC8containsySbAA4FileCF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "subfolder",
+          "printedName": "subfolder(named:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC9subfolder5namedACSS_tKF",
+          "mangledName": "$s5Files6FolderC9subfolder5namedACSS_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "subfolder",
+          "printedName": "subfolder(atPath:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC9subfolder6atPathACSS_tKF",
+          "mangledName": "$s5Files6FolderC9subfolder6atPathACSS_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "containsSubfolder",
+          "printedName": "containsSubfolder(named:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC17containsSubfolder5namedSbSS_tF",
+          "mangledName": "$s5Files6FolderC17containsSubfolder5namedSbSS_tF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "contains",
+          "printedName": "contains(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC8containsySbACF",
+          "mangledName": "$s5Files6FolderC8containsySbACF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createFile",
+          "printedName": "createFile(named:contents:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "hasDefaultArg": true,
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC10createFile5named8contentsAA0D0CSS_10Foundation4DataVtKF",
+          "mangledName": "$s5Files6FolderC10createFile5named8contentsAA0D0CSS_10Foundation4DataVtKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createFile",
+          "printedName": "createFile(named:contents:encoding:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoding",
+              "printedName": "Swift.String.Encoding",
+              "hasDefaultArg": true,
+              "usr": "s:SS10FoundationE8EncodingV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC10createFile5named8contents8encodingAA0D0CSS_S2S10FoundationE8EncodingVtKF",
+          "mangledName": "$s5Files6FolderC10createFile5named8contents8encodingAA0D0CSS_S2S10FoundationE8EncodingVtKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createFileIfNeeded",
+          "printedName": "createFileIfNeeded(withName:contents:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "File",
+              "printedName": "Files.File",
+              "usr": "s:5Files4FileC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "() -> Foundation.Data",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "typeAttributes": [
+                "noescape"
+              ],
+              "hasDefaultArg": true
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC18createFileIfNeeded8withName8contentsAA0D0CSS_10Foundation4DataVyXKtKF",
+          "mangledName": "$s5Files6FolderC18createFileIfNeeded8withName8contentsAA0D0CSS_10Foundation4DataVyXKtKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createSubfolder",
+          "printedName": "createSubfolder(named:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC15createSubfolder5namedACSS_tKF",
+          "mangledName": "$s5Files6FolderC15createSubfolder5namedACSS_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createSubfolderIfNeeded",
+          "printedName": "createSubfolderIfNeeded(withName:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC23createSubfolderIfNeeded8withNameACSS_tKF",
+          "mangledName": "$s5Files6FolderC23createSubfolderIfNeeded8withNameACSS_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "makeFileSequence",
+          "printedName": "makeFileSequence(recursive:includeHidden:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileSystemSequence",
+              "printedName": "Files.FileSystemSequence<Files.File>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "File",
+                  "printedName": "Files.File",
+                  "usr": "s:5Files4FileC"
+                }
+              ],
+              "usr": "s:5Files18FileSystemSequenceC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC16makeFileSequence9recursive13includeHiddenAA0d6SystemE0CyAA0D0CGSb_SbtF",
+          "mangledName": "$s5Files6FolderC16makeFileSequence9recursive13includeHiddenAA0d6SystemE0CyAA0D0CGSb_SbtF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "makeSubfolderSequence",
+          "printedName": "makeSubfolderSequence(recursive:includeHidden:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileSystemSequence",
+              "printedName": "Files.FileSystemSequence<Files.Folder>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Folder",
+                  "printedName": "Files.Folder",
+                  "usr": "s:5Files6FolderC"
+                }
+              ],
+              "usr": "s:5Files18FileSystemSequenceC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC21makeSubfolderSequence9recursive13includeHiddenAA010FileSystemE0CyACGSb_SbtF",
+          "mangledName": "$s5Files6FolderC21makeSubfolderSequence9recursive13includeHiddenAA010FileSystemE0CyACGSb_SbtF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "moveContents",
+          "printedName": "moveContents(to:includeHidden:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC12moveContents2to13includeHiddenyAC_SbtKF",
+          "mangledName": "$s5Files6FolderC12moveContents2to13includeHiddenyAC_SbtKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "empty",
+          "printedName": "empty(includeHidden:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC5empty13includeHiddenySb_tKF",
+          "mangledName": "$s5Files6FolderC5empty13includeHiddenySb_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "copy",
+          "printedName": "copy(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files6FolderC4copy2toA2C_tKF",
+          "mangledName": "$s5Files6FolderC4copy2toA2C_tKF",
+          "moduleName": "Files",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Files6FolderC",
+      "mangledName": "$s5Files6FolderC",
+      "moduleName": "Files",
+      "declAttributes": [
+        "Final",
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "superclassUsr": "s:5Files10FileSystemC4ItemC",
+      "hasMissingDesignatedInitializers": true,
+      "superclassNames": [
+        "Files.FileSystem.Item"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "FileSystemIterable",
+          "printedName": "FileSystemIterable",
+          "usr": "s:5Files18FileSystemIterableP",
+          "mangledName": "$s5Files18FileSystemIterableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FileSystemIterable",
+      "printedName": "FileSystemIterable",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(path:using:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Files18FileSystemIterableP4path5usingxSS_So13NSFileManagerCtKcfc",
+          "mangledName": "$s5Files18FileSystemIterableP4path5usingxSS_So13NSFileManagerCtKcfc",
+          "moduleName": "Files",
+          "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystemIterable>",
+          "sugared_genericSig": "<Self where Self : Files.FileSystemIterable>",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "reqNewWitnessTableEntry": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:5Files18FileSystemIterableP",
+      "mangledName": "$s5Files18FileSystemIterableP",
+      "moduleName": "Files",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FileSystemSequence",
+      "printedName": "FileSystemSequence",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "count",
+          "printedName": "count",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC5countSivp",
+          "mangledName": "$s5Files18FileSystemSequenceC5countSivp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files18FileSystemSequenceC5countSivg",
+              "mangledName": "$s5Files18FileSystemSequenceC5countSivg",
+              "moduleName": "Files",
+              "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+              "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "names",
+          "printedName": "names",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC5namesSaySSGvp",
+          "mangledName": "$s5Files18FileSystemSequenceC5namesSaySSGvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files18FileSystemSequenceC5namesSaySSGvg",
+              "mangledName": "$s5Files18FileSystemSequenceC5namesSaySSGvg",
+              "moduleName": "Files",
+              "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+              "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "first",
+          "printedName": "first",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC5firstxSgvp",
+          "mangledName": "$s5Files18FileSystemSequenceC5firstxSgvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "τ_0_0?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files18FileSystemSequenceC5firstxSgvg",
+              "mangledName": "$s5Files18FileSystemSequenceC5firstxSgvg",
+              "moduleName": "Files",
+              "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+              "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "last",
+          "printedName": "last",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC4lastxSgvp",
+          "mangledName": "$s5Files18FileSystemSequenceC4lastxSgvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "τ_0_0?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files18FileSystemSequenceC4lastxSgvg",
+              "mangledName": "$s5Files18FileSystemSequenceC4lastxSgvg",
+              "moduleName": "Files",
+              "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+              "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "folder",
+          "printedName": "folder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC6folder33_99111A396971EDD7D2B7E9843B3E53A7LLAA6FolderCvp",
+          "mangledName": "$s5Files18FileSystemSequenceC6folder33_99111A396971EDD7D2B7E9843B3E53A7LLAA6FolderCvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "recursive",
+          "printedName": "recursive",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC9recursive33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "mangledName": "$s5Files18FileSystemSequenceC9recursive33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "includeHidden",
+          "printedName": "includeHidden",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC13includeHidden33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "mangledName": "$s5Files18FileSystemSequenceC13includeHidden33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "fileManager",
+          "printedName": "fileManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileF0Cvp",
+          "mangledName": "$s5Files18FileSystemSequenceC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileF0Cvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "makeIterator",
+          "printedName": "makeIterator()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileSystemIterator",
+              "printedName": "Files.FileSystemIterator<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:5Files18FileSystemIteratorC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files18FileSystemSequenceC12makeIteratorAA0bcF0CyxGyF",
+          "mangledName": "$s5Files18FileSystemSequenceC12makeIteratorAA0bcF0CyxGyF",
+          "moduleName": "Files",
+          "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+          "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "move",
+          "printedName": "move(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files18FileSystemSequenceC4move2toyAA6FolderC_tKF",
+          "mangledName": "$s5Files18FileSystemSequenceC4move2toyAA6FolderC_tKF",
+          "moduleName": "Files",
+          "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+          "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemSequenceC11descriptionSSvp",
+          "mangledName": "$s5Files18FileSystemSequenceC11descriptionSSvp",
+          "moduleName": "Files",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Files18FileSystemSequenceC11descriptionSSvg",
+              "mangledName": "$s5Files18FileSystemSequenceC11descriptionSSvg",
+              "moduleName": "Files",
+              "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+              "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Files18FileSystemSequenceC",
+      "mangledName": "$s5Files18FileSystemSequenceC",
+      "moduleName": "Files",
+      "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+      "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "hasMissingDesignatedInitializers": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FileSystemIterator",
+                  "printedName": "Files.FileSystemIterator<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:5Files18FileSystemIteratorC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FileSystemIterator",
+      "printedName": "FileSystemIterator",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "folder",
+          "printedName": "folder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Folder",
+              "printedName": "Files.Folder",
+              "usr": "s:5Files6FolderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemIteratorC6folder33_99111A396971EDD7D2B7E9843B3E53A7LLAA6FolderCvp",
+          "mangledName": "$s5Files18FileSystemIteratorC6folder33_99111A396971EDD7D2B7E9843B3E53A7LLAA6FolderCvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "recursive",
+          "printedName": "recursive",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemIteratorC9recursive33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "mangledName": "$s5Files18FileSystemIteratorC9recursive33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "includeHidden",
+          "printedName": "includeHidden",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemIteratorC13includeHidden33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "mangledName": "$s5Files18FileSystemIteratorC13includeHidden33_99111A396971EDD7D2B7E9843B3E53A7LLSbvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "fileManager",
+          "printedName": "fileManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemIteratorC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileF0Cvp",
+          "mangledName": "$s5Files18FileSystemIteratorC11fileManager33_99111A396971EDD7D2B7E9843B3E53A7LLSo06NSFileF0Cvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_itemNames",
+          "printedName": "$__lazy_storage_$_itemNames",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[Swift.String]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemIteratorC27$__lazy_storage_$_itemNames33_99111A396971EDD7D2B7E9843B3E53A7LLSaySSGSgvp",
+          "mangledName": "$s5Files18FileSystemIteratorC27$__lazy_storage_$_itemNames33_99111A396971EDD7D2B7E9843B3E53A7LLSaySSGSgvp",
+          "moduleName": "Files",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_childIteratorQueue",
+          "printedName": "$__lazy_storage_$_childIteratorQueue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[Files.FileSystemIterator<τ_0_0>]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Files.FileSystemIterator<τ_0_0>]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FileSystemIterator",
+                      "printedName": "Files.FileSystemIterator<τ_0_0>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        }
+                      ],
+                      "usr": "s:5Files18FileSystemIteratorC"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemIteratorC023$__lazy_storage_$_childD5Queue33_99111A396971EDD7D2B7E9843B3E53A7LLSayACyxGGSgvp",
+          "mangledName": "$s5Files18FileSystemIteratorC023$__lazy_storage_$_childD5Queue33_99111A396971EDD7D2B7E9843B3E53A7LLSayACyxGGSgvp",
+          "moduleName": "Files",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "currentChildIterator",
+          "printedName": "currentChildIterator",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Files.FileSystemIterator<τ_0_0>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FileSystemIterator",
+                  "printedName": "Files.FileSystemIterator<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:5Files18FileSystemIteratorC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Files18FileSystemIteratorC012currentChildD033_99111A396971EDD7D2B7E9843B3E53A7LLACyxGSgvp",
+          "mangledName": "$s5Files18FileSystemIteratorC012currentChildD033_99111A396971EDD7D2B7E9843B3E53A7LLACyxGSgvp",
+          "moduleName": "Files",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "next",
+          "printedName": "next()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Files18FileSystemIteratorC4nextxSgyF",
+          "mangledName": "$s5Files18FileSystemIteratorC4nextxSgyF",
+          "moduleName": "Files",
+          "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+          "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Files18FileSystemIteratorC",
+      "mangledName": "$s5Files18FileSystemIteratorC",
+      "moduleName": "Files",
+      "genericSig": "<τ_0_0 where τ_0_0 : Files.FileSystem.Item, τ_0_0 : Files.FileSystemIterable>",
+      "sugared_genericSig": "<T where T : Files.FileSystem.Item, T : Files.FileSystemIterable>",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "hasMissingDesignatedInitializers": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "IteratorProtocol",
+          "printedName": "IteratorProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            }
+          ],
+          "usr": "s:St",
+          "mangledName": "$sSt"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

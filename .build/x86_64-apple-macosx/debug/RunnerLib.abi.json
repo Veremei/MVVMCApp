@@ -1,0 +1,2567 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "TypeDecl",
+      "name": "CliArgs",
+      "printedName": "CliArgs",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7CliArgsV2idSSSgvp",
+          "mangledName": "$s9RunnerLib7CliArgsV2idSSSgvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7CliArgsV2idSSSgvg",
+              "mangledName": "$s9RunnerLib7CliArgsV2idSSSgvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "base",
+          "printedName": "base",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7CliArgsV4baseSSSgvp",
+          "mangledName": "$s9RunnerLib7CliArgsV4baseSSSgvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7CliArgsV4baseSSSgvg",
+              "mangledName": "$s9RunnerLib7CliArgsV4baseSSSgvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "verbose",
+          "printedName": "verbose",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7CliArgsV7verboseSSSgvp",
+          "mangledName": "$s9RunnerLib7CliArgsV7verboseSSSgvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7CliArgsV7verboseSSSgvg",
+              "mangledName": "$s9RunnerLib7CliArgsV7verboseSSSgvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "externalCiProvider",
+          "printedName": "externalCiProvider",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7CliArgsV18externalCiProviderSSSgvp",
+          "mangledName": "$s9RunnerLib7CliArgsV18externalCiProviderSSSgvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7CliArgsV18externalCiProviderSSSgvg",
+              "mangledName": "$s9RunnerLib7CliArgsV18externalCiProviderSSSgvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "textOnly",
+          "printedName": "textOnly",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7CliArgsV8textOnlySSSgvp",
+          "mangledName": "$s9RunnerLib7CliArgsV8textOnlySSSgvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7CliArgsV8textOnlySSSgvg",
+              "mangledName": "$s9RunnerLib7CliArgsV8textOnlySSSgvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dangerfile",
+          "printedName": "dangerfile",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7CliArgsV10dangerfileSSSgvp",
+          "mangledName": "$s9RunnerLib7CliArgsV10dangerfileSSSgvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7CliArgsV10dangerfileSSSgvg",
+              "mangledName": "$s9RunnerLib7CliArgsV10dangerfileSSSgvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(dictionary:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CliArgs",
+              "printedName": "RunnerLib.CliArgs",
+              "usr": "s:9RunnerLib7CliArgsV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib7CliArgsV10dictionaryACSDySSypG_tcfc",
+          "mangledName": "$s9RunnerLib7CliArgsV10dictionaryACSDySSypG_tcfc",
+          "moduleName": "RunnerLib",
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9RunnerLib7CliArgsV",
+      "mangledName": "$s9RunnerLib7CliArgsV",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CliArgsParser",
+      "printedName": "CliArgsParser",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CliArgsParser",
+              "printedName": "RunnerLib.CliArgsParser",
+              "usr": "s:9RunnerLib13CliArgsParserC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib13CliArgsParserCACycfc",
+          "mangledName": "$s9RunnerLib13CliArgsParserCACycfc",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "parseCli",
+          "printedName": "parseCli(fromData:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RunnerLib.CliArgs?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CliArgs",
+                  "printedName": "RunnerLib.CliArgs",
+                  "usr": "s:9RunnerLib7CliArgsV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib13CliArgsParserC05parseC08fromDataAA0cD0VSg10Foundation0H0V_tF",
+          "mangledName": "$s9RunnerLib13CliArgsParserC05parseC08fromDataAA0cD0VSg10Foundation0H0V_tF",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9RunnerLib13CliArgsParserC",
+      "mangledName": "$s9RunnerLib13CliArgsParserC",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "Final",
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Function",
+      "name": "createConfig",
+      "printedName": "createConfig(atPath:libPath:libsImport:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:9RunnerLib12createConfig6atPath03libF010libsImportySS_SSSaySSGtKF",
+      "mangledName": "$s9RunnerLib12createConfig6atPath03libF010libsImportySS_SSSaySSGtKF",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "throwing": true,
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DangerCommand",
+      "printedName": "DangerCommand",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "ci",
+          "printedName": "ci",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RunnerLib.DangerCommand.Type) -> RunnerLib.DangerCommand",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RunnerLib.DangerCommand.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerCommand",
+                      "printedName": "RunnerLib.DangerCommand",
+                      "usr": "s:9RunnerLib13DangerCommandO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:9RunnerLib13DangerCommandO2ciyA2CmF",
+          "mangledName": "$s9RunnerLib13DangerCommandO2ciyA2CmF",
+          "moduleName": "RunnerLib",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "local",
+          "printedName": "local",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RunnerLib.DangerCommand.Type) -> RunnerLib.DangerCommand",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RunnerLib.DangerCommand.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerCommand",
+                      "printedName": "RunnerLib.DangerCommand",
+                      "usr": "s:9RunnerLib13DangerCommandO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:9RunnerLib13DangerCommandO5localyA2CmF",
+          "mangledName": "$s9RunnerLib13DangerCommandO5localyA2CmF",
+          "moduleName": "RunnerLib",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "pr",
+          "printedName": "pr",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RunnerLib.DangerCommand.Type) -> RunnerLib.DangerCommand",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RunnerLib.DangerCommand.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerCommand",
+                      "printedName": "RunnerLib.DangerCommand",
+                      "usr": "s:9RunnerLib13DangerCommandO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:9RunnerLib13DangerCommandO2pryA2CmF",
+          "mangledName": "$s9RunnerLib13DangerCommandO2pryA2CmF",
+          "moduleName": "RunnerLib",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "edit",
+          "printedName": "edit",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RunnerLib.DangerCommand.Type) -> RunnerLib.DangerCommand",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RunnerLib.DangerCommand.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerCommand",
+                      "printedName": "RunnerLib.DangerCommand",
+                      "usr": "s:9RunnerLib13DangerCommandO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:9RunnerLib13DangerCommandO4edityA2CmF",
+          "mangledName": "$s9RunnerLib13DangerCommandO4edityA2CmF",
+          "moduleName": "RunnerLib",
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Var",
+          "name": "runner",
+          "printedName": "runner",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RunnerLib.DangerCommand.Type) -> RunnerLib.DangerCommand",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RunnerLib.DangerCommand.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerCommand",
+                      "printedName": "RunnerLib.DangerCommand",
+                      "usr": "s:9RunnerLib13DangerCommandO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:9RunnerLib13DangerCommandO6runneryA2CmF",
+          "mangledName": "$s9RunnerLib13DangerCommandO6runneryA2CmF",
+          "moduleName": "RunnerLib",
+          "fixedbinaryorder": 4
+        },
+        {
+          "kind": "Var",
+          "name": "commandDescription",
+          "printedName": "commandDescription",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib13DangerCommandO18commandDescriptionSSvp",
+          "mangledName": "$s9RunnerLib13DangerCommandO18commandDescriptionSSvp",
+          "moduleName": "RunnerLib",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib13DangerCommandO18commandDescriptionSSvg",
+              "mangledName": "$s9RunnerLib13DangerCommandO18commandDescriptionSSvg",
+              "moduleName": "RunnerLib",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "commandsListText",
+          "printedName": "commandsListText",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib13DangerCommandO16commandsListTextSSvpZ",
+          "mangledName": "$s9RunnerLib13DangerCommandO16commandsListTextSSvpZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib13DangerCommandO16commandsListTextSSvgZ",
+              "mangledName": "$s9RunnerLib13DangerCommandO16commandsListTextSSvgZ",
+              "moduleName": "RunnerLib",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RunnerLib.DangerCommand?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib13DangerCommandO8rawValueACSgSS_tcfc",
+          "mangledName": "$s9RunnerLib13DangerCommandO8rawValueACSgSS_tcfc",
+          "moduleName": "RunnerLib",
+          "implicit": true,
+          "declAttributes": [
+            "Inlinable"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib13DangerCommandO8rawValueSSvp",
+          "mangledName": "$s9RunnerLib13DangerCommandO8rawValueSSvp",
+          "moduleName": "RunnerLib",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib13DangerCommandO8rawValueSSvg",
+              "mangledName": "$s9RunnerLib13DangerCommandO8rawValueSSvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "allCases",
+          "printedName": "allCases",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[RunnerLib.DangerCommand]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib13DangerCommandO8allCasesSayACGvpZ",
+          "mangledName": "$s9RunnerLib13DangerCommandO8allCasesSayACGvpZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RunnerLib.DangerCommand]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerCommand",
+                      "printedName": "RunnerLib.DangerCommand",
+                      "usr": "s:9RunnerLib13DangerCommandO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib13DangerCommandO8allCasesSayACGvgZ",
+              "mangledName": "$s9RunnerLib13DangerCommandO8allCasesSayACGvgZ",
+              "moduleName": "RunnerLib",
+              "static": true,
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:9RunnerLib13DangerCommandO",
+      "mangledName": "$s9RunnerLib13DangerCommandO",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "enumRawTypeName": "String",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CaseIterable",
+          "printedName": "CaseIterable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AllCases",
+              "printedName": "AllCases",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RunnerLib.DangerCommand]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerCommand",
+                      "printedName": "RunnerLib.DangerCommand",
+                      "usr": "s:9RunnerLib13DangerCommandO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12CaseIterableP",
+          "mangledName": "$ss12CaseIterableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "DangerShellExecutor",
+      "printedName": "DangerShellExecutor",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Import",
+      "name": "Logger",
+      "printedName": "Logger",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DangerJSVersionFinder",
+      "printedName": "DangerJSVersionFinder",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "findDangerJSVersion",
+          "printedName": "findDangerJSVersion(dangerJSPath:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib21DangerJSVersionFinderC04findcD012dangerJSPathS2S_tKFZ",
+          "mangledName": "$s9RunnerLib21DangerJSVersionFinderC04findcD012dangerJSPathS2S_tKFZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "findDangerJSVersion",
+          "printedName": "findDangerJSVersion(dangerJSPath:executor:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ShellExecuting",
+              "printedName": "DangerShellExecutor.ShellExecuting",
+              "usr": "s:19DangerShellExecutor0B9ExecutingP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib21DangerJSVersionFinderC04findcD012dangerJSPath8executorS2S_0C13ShellExecutor0J9Executing_ptKFZ",
+          "mangledName": "$s9RunnerLib21DangerJSVersionFinderC04findcD012dangerJSPath8executorS2S_0C13ShellExecutor0J9Executing_ptKFZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DangerJSVersionFinder",
+              "printedName": "RunnerLib.DangerJSVersionFinder",
+              "usr": "s:9RunnerLib21DangerJSVersionFinderC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib21DangerJSVersionFinderCACycfc",
+          "mangledName": "$s9RunnerLib21DangerJSVersionFinderCACycfc",
+          "moduleName": "RunnerLib",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9RunnerLib21DangerJSVersionFinderC",
+      "mangledName": "$s9RunnerLib21DangerJSVersionFinderC",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "Final",
+        "AccessControl"
+      ],
+      "hasMissingDesignatedInitializers": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DangerSwiftOption",
+      "printedName": "DangerSwiftOption",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "dangerJSPath",
+          "printedName": "dangerJSPath",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RunnerLib.DangerSwiftOption.Type) -> RunnerLib.DangerSwiftOption",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerSwiftOption",
+                  "printedName": "RunnerLib.DangerSwiftOption",
+                  "usr": "s:9RunnerLib17DangerSwiftOptionO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RunnerLib.DangerSwiftOption.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerSwiftOption",
+                      "printedName": "RunnerLib.DangerSwiftOption",
+                      "usr": "s:9RunnerLib17DangerSwiftOptionO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:9RunnerLib17DangerSwiftOptionO12dangerJSPathyA2CmF",
+          "mangledName": "$s9RunnerLib17DangerSwiftOptionO12dangerJSPathyA2CmF",
+          "moduleName": "RunnerLib",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "hasParameter",
+          "printedName": "hasParameter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib17DangerSwiftOptionO12hasParameterSbvp",
+          "mangledName": "$s9RunnerLib17DangerSwiftOptionO12hasParameterSbvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib17DangerSwiftOptionO12hasParameterSbvg",
+              "mangledName": "$s9RunnerLib17DangerSwiftOptionO12hasParameterSbvg",
+              "moduleName": "RunnerLib",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RunnerLib.DangerSwiftOption?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerSwiftOption",
+                  "printedName": "RunnerLib.DangerSwiftOption",
+                  "usr": "s:9RunnerLib17DangerSwiftOptionO"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib17DangerSwiftOptionO8rawValueACSgSS_tcfc",
+          "mangledName": "$s9RunnerLib17DangerSwiftOptionO8rawValueACSgSS_tcfc",
+          "moduleName": "RunnerLib",
+          "implicit": true,
+          "declAttributes": [
+            "Inlinable"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib17DangerSwiftOptionO8rawValueSSvp",
+          "mangledName": "$s9RunnerLib17DangerSwiftOptionO8rawValueSSvp",
+          "moduleName": "RunnerLib",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib17DangerSwiftOptionO8rawValueSSvg",
+              "mangledName": "$s9RunnerLib17DangerSwiftOptionO8rawValueSSvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "allCases",
+          "printedName": "allCases",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[RunnerLib.DangerSwiftOption]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerSwiftOption",
+                  "printedName": "RunnerLib.DangerSwiftOption",
+                  "usr": "s:9RunnerLib17DangerSwiftOptionO"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib17DangerSwiftOptionO8allCasesSayACGvpZ",
+          "mangledName": "$s9RunnerLib17DangerSwiftOptionO8allCasesSayACGvpZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RunnerLib.DangerSwiftOption]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerSwiftOption",
+                      "printedName": "RunnerLib.DangerSwiftOption",
+                      "usr": "s:9RunnerLib17DangerSwiftOptionO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib17DangerSwiftOptionO8allCasesSayACGvgZ",
+              "mangledName": "$s9RunnerLib17DangerSwiftOptionO8allCasesSayACGvgZ",
+              "moduleName": "RunnerLib",
+              "static": true,
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:9RunnerLib17DangerSwiftOptionO",
+      "mangledName": "$s9RunnerLib17DangerSwiftOptionO",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "enumRawTypeName": "String",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CaseIterable",
+          "printedName": "CaseIterable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AllCases",
+              "printedName": "AllCases",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RunnerLib.DangerSwiftOption]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DangerSwiftOption",
+                      "printedName": "RunnerLib.DangerSwiftOption",
+                      "usr": "s:9RunnerLib17DangerSwiftOptionO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12CaseIterableP",
+          "mangledName": "$ss12CaseIterableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DangerfilePathFinder",
+      "printedName": "DangerfilePathFinder",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "dangerfilePath",
+          "printedName": "dangerfilePath(fromArguments:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib20DangerfilePathFinderO010dangerfileD013fromArgumentsSSSgSaySSG_tFZ",
+          "mangledName": "$s9RunnerLib20DangerfilePathFinderO010dangerfileD013fromArgumentsSSSgSaySSG_tFZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:9RunnerLib20DangerfilePathFinderO",
+      "mangledName": "$s9RunnerLib20DangerfilePathFinderO",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "isEnumExhaustive": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Import",
+      "name": "Logger",
+      "printedName": "Logger",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DangerFileGenerator",
+      "printedName": "DangerFileGenerator",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DangerFileGenerator",
+              "printedName": "RunnerLib.DangerFileGenerator",
+              "usr": "s:9RunnerLib19DangerFileGeneratorC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib19DangerFileGeneratorCACycfc",
+          "mangledName": "$s9RunnerLib19DangerFileGeneratorCACycfc",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "generateDangerFile",
+          "printedName": "generateDangerFile(fromContent:fileName:logger:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Logger",
+              "printedName": "Logger.Logger",
+              "usr": "s:6LoggerAAV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib19DangerFileGeneratorC08generatecD011fromContent8fileName6loggerySS_SS6LoggerAHVtKF",
+          "mangledName": "$s9RunnerLib19DangerFileGeneratorC08generatecD011fromContent8fileName6loggerySS_SS6LoggerAHVtKF",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9RunnerLib19DangerFileGeneratorC",
+      "mangledName": "$s9RunnerLib19DangerFileGeneratorC",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "Final",
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImportsFinder",
+      "printedName": "ImportsFinder",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImportsFinder",
+              "printedName": "RunnerLib.ImportsFinder",
+              "usr": "s:9RunnerLib13ImportsFinderC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib13ImportsFinderCACycfc",
+          "mangledName": "$s9RunnerLib13ImportsFinderCACycfc",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "findImports",
+          "printedName": "findImports(inString:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib13ImportsFinderC04findC08inStringSaySSGSS_tF",
+          "mangledName": "$s9RunnerLib13ImportsFinderC04findC08inStringSaySSGSS_tF",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9RunnerLib13ImportsFinderC",
+      "mangledName": "$s9RunnerLib13ImportsFinderC",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "Final",
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "DangerShellExecutor",
+      "printedName": "DangerShellExecutor",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Import",
+      "name": "Logger",
+      "printedName": "Logger",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Function",
+      "name": "getDangerCommandPath",
+      "printedName": "getDangerCommandPath(logger:args:shellOutExecutor:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Logger",
+          "printedName": "Logger.Logger",
+          "usr": "s:6LoggerAAV"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "hasDefaultArg": true,
+          "usr": "s:Sa"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "ShellExecuting",
+          "printedName": "DangerShellExecutor.ShellExecuting",
+          "hasDefaultArg": true,
+          "usr": "s:19DangerShellExecutor0B9ExecutingP"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:9RunnerLib20getDangerCommandPath6logger4args16shellOutExecutorSS6LoggerAFV_SaySSG0d5ShellK00M9Executing_ptKF",
+      "mangledName": "$s9RunnerLib20getDangerCommandPath6logger4args16shellOutExecutorSS6LoggerAFV_SaySSG0d5ShellK00M9Executing_ptKF",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "throwing": true,
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Import",
+      "name": "Logger",
+      "printedName": "Logger",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HelpMessagePresenter",
+      "printedName": "HelpMessagePresenter",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "showHelpMessage",
+          "printedName": "showHelpMessage(command:logger:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RunnerLib.DangerCommand?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DangerCommand",
+                  "printedName": "RunnerLib.DangerCommand",
+                  "usr": "s:9RunnerLib13DangerCommandO"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Logger",
+              "printedName": "Logger.Logger",
+              "usr": "s:6LoggerAAV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib20HelpMessagePresenterC04showcD07command6loggeryAA13DangerCommandOSg_6LoggerAJVtFZ",
+          "mangledName": "$s9RunnerLib20HelpMessagePresenterC04showcD07command6loggeryAA13DangerCommandOSg_6LoggerAJVtFZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HelpMessagePresenter",
+              "printedName": "RunnerLib.HelpMessagePresenter",
+              "usr": "s:9RunnerLib20HelpMessagePresenterC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib20HelpMessagePresenterCACycfc",
+          "mangledName": "$s9RunnerLib20HelpMessagePresenterCACycfc",
+          "moduleName": "RunnerLib",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9RunnerLib20HelpMessagePresenterC",
+      "mangledName": "$s9RunnerLib20HelpMessagePresenterC",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "Final",
+        "AccessControl"
+      ],
+      "hasMissingDesignatedInitializers": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Runtime",
+      "printedName": "Runtime",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "supportedPaths",
+          "printedName": "supportedPaths",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7RuntimeV14supportedPathsSaySSGvpZ",
+          "mangledName": "$s9RunnerLib7RuntimeV14supportedPathsSaySSGvpZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7RuntimeV14supportedPathsSaySSGvgZ",
+              "mangledName": "$s9RunnerLib7RuntimeV14supportedPathsSaySSGvgZ",
+              "moduleName": "RunnerLib",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "getDangerfile",
+          "printedName": "getDangerfile()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib7RuntimeV13getDangerfileSSSgyFZ",
+          "mangledName": "$s9RunnerLib7RuntimeV13getDangerfileSSSgyFZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "potentialLibraryFolders",
+          "printedName": "potentialLibraryFolders",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib7RuntimeV23potentialLibraryFoldersSaySSGvpZ",
+          "mangledName": "$s9RunnerLib7RuntimeV23potentialLibraryFoldersSaySSGvpZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib7RuntimeV23potentialLibraryFoldersSaySSGvgZ",
+              "mangledName": "$s9RunnerLib7RuntimeV23potentialLibraryFoldersSaySSGvgZ",
+              "moduleName": "RunnerLib",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "getLibDangerPath",
+          "printedName": "getLibDangerPath()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib7RuntimeV03getB10DangerPathSSSgyFZ",
+          "mangledName": "$s9RunnerLib7RuntimeV03getB10DangerPathSSSgyFZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Runtime",
+              "printedName": "RunnerLib.Runtime",
+              "usr": "s:9RunnerLib7RuntimeV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib7RuntimeVACycfc",
+          "mangledName": "$s9RunnerLib7RuntimeVACycfc",
+          "moduleName": "RunnerLib",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9RunnerLib7RuntimeV",
+      "mangledName": "$s9RunnerLib7RuntimeV",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "DangerShellExecutor",
+      "printedName": "DangerShellExecutor",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RunnerLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SPMDanger",
+      "printedName": "SPMDanger",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "fileManager",
+          "printedName": "fileManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib9SPMDangerV11fileManager33_B584E1ED795E609621DE2C3340CF6050LLSo06NSFileE0Cvp",
+          "mangledName": "$s9RunnerLib9SPMDangerV11fileManager33_B584E1ED795E609621DE2C3340CF6050LLSo06NSFileE0Cvp",
+          "moduleName": "RunnerLib",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "buildFolder",
+          "printedName": "buildFolder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib9SPMDangerV11buildFolderSSvpZ",
+          "mangledName": "$s9RunnerLib9SPMDangerV11buildFolderSSvpZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib9SPMDangerV11buildFolderSSvgZ",
+              "mangledName": "$s9RunnerLib9SPMDangerV11buildFolderSSvgZ",
+              "moduleName": "RunnerLib",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "depsLibName",
+          "printedName": "depsLibName",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib9SPMDangerV04depsB4NameSSvp",
+          "mangledName": "$s9RunnerLib9SPMDangerV04depsB4NameSSvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib9SPMDangerV04depsB4NameSSvg",
+              "mangledName": "$s9RunnerLib9SPMDangerV04depsB4NameSSvg",
+              "moduleName": "RunnerLib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(packagePath:fileManager:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RunnerLib.SPMDanger?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SPMDanger",
+                  "printedName": "RunnerLib.SPMDanger",
+                  "usr": "s:9RunnerLib9SPMDangerV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "hasDefaultArg": true,
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9RunnerLib9SPMDangerV11packagePath11fileManagerACSgSS_So06NSFileG0Ctcfc",
+          "mangledName": "$s9RunnerLib9SPMDangerV11packagePath11fileManagerACSgSS_So06NSFileG0Ctcfc",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "buildDependencies",
+          "printedName": "buildDependencies(executor:fileManager:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ShellExecuting",
+              "printedName": "DangerShellExecutor.ShellExecuting",
+              "hasDefaultArg": true,
+              "usr": "s:19DangerShellExecutor0B9ExecutingP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FileManager",
+              "printedName": "Foundation.FileManager",
+              "hasDefaultArg": true,
+              "usr": "c:objc(cs)NSFileManager"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9RunnerLib9SPMDangerV17buildDependencies8executor11fileManagery19DangerShellExecutor0J9Executing_p_So06NSFileH0CtF",
+          "mangledName": "$s9RunnerLib9SPMDangerV17buildDependencies8executor11fileManagery19DangerShellExecutor0J9Executing_p_So06NSFileH0CtF",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "swiftcLibImport",
+          "printedName": "swiftcLibImport",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib9SPMDangerV06swiftcB6ImportSSvp",
+          "mangledName": "$s9RunnerLib9SPMDangerV06swiftcB6ImportSSvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib9SPMDangerV06swiftcB6ImportSSvg",
+              "mangledName": "$s9RunnerLib9SPMDangerV06swiftcB6ImportSSvg",
+              "moduleName": "RunnerLib",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "xcodeImportFlags",
+          "printedName": "xcodeImportFlags",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9RunnerLib9SPMDangerV16xcodeImportFlagsSaySSGvp",
+          "mangledName": "$s9RunnerLib9SPMDangerV16xcodeImportFlagsSaySSGvp",
+          "moduleName": "RunnerLib",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9RunnerLib9SPMDangerV16xcodeImportFlagsSaySSGvg",
+              "mangledName": "$s9RunnerLib9SPMDangerV16xcodeImportFlagsSaySSGvg",
+              "moduleName": "RunnerLib",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9RunnerLib9SPMDangerV",
+      "mangledName": "$s9RunnerLib9SPMDangerV",
+      "moduleName": "RunnerLib",
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NSRegularExpression",
+      "printedName": "NSRegularExpression",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "filesImportRegex",
+          "printedName": "filesImportRegex",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSRegularExpression",
+              "printedName": "Foundation.NSRegularExpression",
+              "usr": "c:objc(cs)NSRegularExpression"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So19NSRegularExpressionC9RunnerLibE16filesImportRegexABvpZ",
+          "mangledName": "$sSo19NSRegularExpressionC9RunnerLibE16filesImportRegexABvpZ",
+          "moduleName": "RunnerLib",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSRegularExpression",
+                  "printedName": "Foundation.NSRegularExpression",
+                  "usr": "c:objc(cs)NSRegularExpression"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So19NSRegularExpressionC9RunnerLibE16filesImportRegexABvgZ",
+              "mangledName": "$sSo19NSRegularExpressionC9RunnerLibE16filesImportRegexABvgZ",
+              "moduleName": "RunnerLib",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)NSRegularExpression",
+      "moduleName": "Foundation",
+      "isOpen": true,
+      "intro_Macosx": "10.7",
+      "objc_name": "NSRegularExpression",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

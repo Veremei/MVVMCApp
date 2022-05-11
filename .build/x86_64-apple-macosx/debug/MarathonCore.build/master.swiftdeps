@@ -1,0 +1,63 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1652296995, 273756980]
+build_end_time: [1652296996, 122123003]
+inputs:
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Add.swift"
+  : [1652296726, 775243282]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Array+Marathon.swift"
+  : [1652296726, 775448560]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Codable+TypeInference.swift"
+  : [1652296726, 775800704]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Command.swift"
+  : [1652296726, 776466369]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Create.swift"
+  : [1652296726, 776703834]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Edit.swift"
+  : [1652296726, 776927471]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Executable.swift"
+  : [1652296726, 777085304]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/FishAutocompleteInstaller.swift"
+  : [1652296726, 777254104]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Folder+Marathon.swift"
+  : [1652296726, 777386903]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Help.swift"
+  : [1652296726, 777565002]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Install.swift"
+  : [1652296726, 777703762]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/List.swift"
+  : [1652296726, 778030395]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Marathon.swift"
+  : [1652296726, 778269767]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/MarathonFile.swift"
+  : [1652296726, 778511285]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Package.swift"
+  : [1652296726, 778674364]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/PackageManager.swift"
+  : [1652296726, 778879642]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Perform.swift"
+  : [1652296726, 779038429]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/PrintableError.swift"
+  : [1652296726, 779213905]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Printer.swift"
+  : [1652296726, 779386520]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Remove.swift"
+  : [1652296726, 779519319]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Run.swift"
+  : [1652296726, 779690265]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Script.swift"
+  : [1652296726, 779892206]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/ScriptManager.swift"
+  : [1652296726, 780107259]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/ShellOut+Marathon.swift"
+  : [1652296726, 780264854]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/String+Marathon.swift"
+  : [1652296726, 780521392]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Task.swift"
+  : [1652296726, 780751705]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/URL+Marathon.swift"
+  : [1652296726, 780935049]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/Update.swift"
+  : [1652296726, 781062841]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Marathon/Sources/MarathonCore/ZshAutocompleteInstaller.swift"
+  : [1652296726, 781198024]

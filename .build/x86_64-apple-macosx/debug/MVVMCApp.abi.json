@@ -1,0 +1,417 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MVVMCApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Coordinator",
+      "printedName": "Coordinator",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "childCoordinators",
+          "printedName": "childCoordinators",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[MVVMCApp.Coordinator]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Coordinator",
+                  "printedName": "MVVMCApp.Coordinator",
+                  "usr": "s:8MVVMCApp11CoordinatorP"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvp",
+          "mangledName": "$s8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvp",
+          "moduleName": "MVVMCApp",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[MVVMCApp.Coordinator]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Coordinator",
+                      "printedName": "MVVMCApp.Coordinator",
+                      "usr": "s:8MVVMCApp11CoordinatorP"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvg",
+              "mangledName": "$s8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvg",
+              "moduleName": "MVVMCApp",
+              "genericSig": "<τ_0_0 where τ_0_0 : MVVMCApp.Coordinator>",
+              "sugared_genericSig": "<Self where Self : MVVMCApp.Coordinator>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[MVVMCApp.Coordinator]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Coordinator",
+                      "printedName": "MVVMCApp.Coordinator",
+                      "usr": "s:8MVVMCApp11CoordinatorP"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvs",
+              "mangledName": "$s8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvs",
+              "moduleName": "MVVMCApp",
+              "genericSig": "<τ_0_0 where τ_0_0 : MVVMCApp.Coordinator>",
+              "sugared_genericSig": "<Self where Self : MVVMCApp.Coordinator>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvM",
+              "mangledName": "$s8MVVMCApp11CoordinatorP17childCoordinatorsSayAaB_pGvM",
+              "moduleName": "MVVMCApp",
+              "genericSig": "<τ_0_0 where τ_0_0 : MVVMCApp.Coordinator>",
+              "sugared_genericSig": "<Self where Self : MVVMCApp.Coordinator>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "start",
+          "printedName": "start()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8MVVMCApp11CoordinatorP5startyyF",
+          "mangledName": "$s8MVVMCApp11CoordinatorP5startyyF",
+          "moduleName": "MVVMCApp",
+          "genericSig": "<τ_0_0 where τ_0_0 : MVVMCApp.Coordinator>",
+          "sugared_genericSig": "<Self where Self : MVVMCApp.Coordinator>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "appendChild",
+          "printedName": "appendChild(coordinator:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Coordinator",
+              "printedName": "MVVMCApp.Coordinator",
+              "usr": "s:8MVVMCApp11CoordinatorP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8MVVMCApp11CoordinatorPAAE11appendChild11coordinatoryAaB_p_tF",
+          "mangledName": "$s8MVVMCApp11CoordinatorPAAE11appendChild11coordinatoryAaB_p_tF",
+          "moduleName": "MVVMCApp",
+          "genericSig": "<τ_0_0 where τ_0_0 : MVVMCApp.Coordinator>",
+          "sugared_genericSig": "<Self where Self : MVVMCApp.Coordinator>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeChild",
+          "printedName": "removeChild(coordinator:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Coordinator",
+              "printedName": "MVVMCApp.Coordinator",
+              "usr": "s:8MVVMCApp11CoordinatorP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8MVVMCApp11CoordinatorPAAE11removeChild11coordinatoryAaB_p_tF",
+          "mangledName": "$s8MVVMCApp11CoordinatorPAAE11removeChild11coordinatoryAaB_p_tF",
+          "moduleName": "MVVMCApp",
+          "genericSig": "<τ_0_0 where τ_0_0 : MVVMCApp.Coordinator>",
+          "sugared_genericSig": "<Self where Self : MVVMCApp.Coordinator>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeAllCoordinators",
+          "printedName": "removeAllCoordinators()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8MVVMCApp11CoordinatorPAAE21removeAllCoordinatorsyyF",
+          "mangledName": "$s8MVVMCApp11CoordinatorPAAE21removeAllCoordinatorsyyF",
+          "moduleName": "MVVMCApp",
+          "genericSig": "<τ_0_0 where τ_0_0 : MVVMCApp.Coordinator>",
+          "sugared_genericSig": "<Self where Self : MVVMCApp.Coordinator>",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:8MVVMCApp11CoordinatorP",
+      "mangledName": "$s8MVVMCApp11CoordinatorP",
+      "moduleName": "MVVMCApp",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BaseCoordinator",
+      "printedName": "BaseCoordinator",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "childCoordinators",
+          "printedName": "childCoordinators",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[MVVMCApp.Coordinator]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Coordinator",
+                  "printedName": "MVVMCApp.Coordinator",
+                  "usr": "s:8MVVMCApp11CoordinatorP"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvp",
+          "mangledName": "$s8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvp",
+          "moduleName": "MVVMCApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[MVVMCApp.Coordinator]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Coordinator",
+                      "printedName": "MVVMCApp.Coordinator",
+                      "usr": "s:8MVVMCApp11CoordinatorP"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvg",
+              "mangledName": "$s8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvg",
+              "moduleName": "MVVMCApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[MVVMCApp.Coordinator]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Coordinator",
+                      "printedName": "MVVMCApp.Coordinator",
+                      "usr": "s:8MVVMCApp11CoordinatorP"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvs",
+              "mangledName": "$s8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvs",
+              "moduleName": "MVVMCApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvM",
+              "mangledName": "$s8MVVMCApp15BaseCoordinatorC17childCoordinatorsSayAA0C0_pGvM",
+              "moduleName": "MVVMCApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "start",
+          "printedName": "start()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8MVVMCApp15BaseCoordinatorC5startyyF",
+          "mangledName": "$s8MVVMCApp15BaseCoordinatorC5startyyF",
+          "moduleName": "MVVMCApp",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BaseCoordinator",
+              "printedName": "MVVMCApp.BaseCoordinator",
+              "usr": "s:8MVVMCApp15BaseCoordinatorC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8MVVMCApp15BaseCoordinatorCACycfc",
+          "mangledName": "$s8MVVMCApp15BaseCoordinatorCACycfc",
+          "moduleName": "MVVMCApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:8MVVMCApp15BaseCoordinatorC",
+      "mangledName": "$s8MVVMCApp15BaseCoordinatorC",
+      "moduleName": "MVVMCApp",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Coordinator",
+          "printedName": "Coordinator",
+          "usr": "s:8MVVMCApp11CoordinatorP",
+          "mangledName": "$s8MVVMCApp11CoordinatorP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
