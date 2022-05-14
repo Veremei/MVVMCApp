@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1652296831, 242020130]
-build_end_time: [1652296839, 36632061]
+build_start_time: [1652561662, 996979951]
+build_end_time: [1652561663, 427608013]
 inputs:
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/RequestKit/Sources/RequestKit/JSONPostRouter.swift"
   : [1652296727, 65211534]

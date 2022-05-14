@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1652296994, 63601970]
-build_end_time: [1652296994, 440867900]
+build_start_time: [1652560566, 594681024]
+build_end_time: [1652560571, 825109004]
 inputs:
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Require/Sources/Require.swift": [1652296724, 820685863]

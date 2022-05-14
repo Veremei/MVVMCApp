@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1652296831, 241838932]
-build_end_time: [1652296838, 976636886]
+build_start_time: [1652560566, 595065116]
+build_end_time: [1652560572, 963067054]
 inputs:
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Logger/Sources/Logger/Logger.swift": [1652296725, 628036975]

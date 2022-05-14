@@ -1,35 +1,40 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1652296842, 997661113]
-build_end_time: [1652296844, 652884006]
+build_start_time: [1652561666, 788331031]
+build_end_time: [1652561669, 279556035]
 inputs:
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/BitBucketCloud.swift"
+  : [1652561661, 519685983]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/BitBucketMetadata.swift"
+  : [1652561661, 519840955]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/BitBucketServerDSL.swift"
-  : [1652296725, 319303035]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Danger.swift": [1652296725, 319470167]
+  : [1652561661, 520101547]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Danger.swift": [1652561661, 520365238]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/DangerDSL.swift"
-  : [1652296725, 319624423]
+  : [1652561661, 520593881]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/DangerResults.swift"
-  : [1652296725, 319773435]
+  : [1652561661, 520828723]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/DangerUtils.swift"
-  : [1652296725, 319937705]
+  : [1652561661, 521034717]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Extensions/DateFormatterExtensions.swift"
-  : [1652296725, 320162057]
+  : [1652561661, 521274089]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Extensions/NSRegularExpressionExtensions.swift"
-  : [1652296725, 320315361]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/File.swift": [1652296725, 320469141]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/GitDSL.swift": [1652296725, 320630550]
+  : [1652561661, 521494865]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/File.swift": [1652561661, 521708011]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/GitDSL.swift": [1652561661, 521950960]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/GitDiff.swift": [1652561661, 522129774]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/GitHubDSL.swift"
-  : [1652296725, 320812225]
+  : [1652561661, 522356033]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/GitLabDSL.swift"
-  : [1652296725, 321267366]
+  : [1652561661, 522624015]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/CurrentPathProvider.swift"
-  : [1652296725, 321582794]
+  : [1652561661, 522882938]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLint.swift"
-  : [1652296725, 321790456]
+  : [1652561661, 523122310]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLintViolation.swift"
-  : [1652296725, 321958541]
+  : [1652561661, 523352622]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftlintReportDeleter.swift"
-  : [1652296725, 322086334]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Report.swift": [1652296725, 322249412]
+  : [1652561661, 523574829]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Report.swift": [1652561661, 523798942]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Danger/Settings.swift"
-  : [1652296725, 322380542]
+  : [1652561661, 524037361]

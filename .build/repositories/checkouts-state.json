@@ -5,25 +5,9 @@
         "repositoryURL" : "https://github.com/danger/swift.git",
         "subpath" : "swift-163f916a"
       },
-      "https://github.com/JohnSundell/Files.git" : {
-        "repositoryURL" : "https://github.com/JohnSundell/Files.git",
-        "subpath" : "Files-69e7b133"
-      },
-      "https://github.com/JohnSundell/Marathon" : {
-        "repositoryURL" : "https://github.com/JohnSundell/Marathon",
-        "subpath" : "Marathon-4d53162a"
-      },
-      "https://github.com/JohnSundell/Releases.git" : {
-        "repositoryURL" : "https://github.com/JohnSundell/Releases.git",
-        "subpath" : "Releases-316b0b3c"
-      },
-      "https://github.com/JohnSundell/Require.git" : {
-        "repositoryURL" : "https://github.com/JohnSundell/Require.git",
-        "subpath" : "Require-0cf1e3d7"
-      },
-      "https://github.com/JohnSundell/ShellOut.git" : {
-        "repositoryURL" : "https://github.com/JohnSundell/ShellOut.git",
-        "subpath" : "ShellOut-1f40e752"
+      "https://github.com/mxcl/Version" : {
+        "repositoryURL" : "https://github.com/mxcl/Version",
+        "subpath" : "Version-9ad39a68"
       },
       "https://github.com/nerdishbynature/octokit.swift" : {
         "repositoryURL" : "https://github.com/nerdishbynature/octokit.swift",
