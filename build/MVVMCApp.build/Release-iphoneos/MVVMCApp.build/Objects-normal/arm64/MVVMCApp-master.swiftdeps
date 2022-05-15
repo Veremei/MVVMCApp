@@ -1,28 +1,28 @@
-version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "917371b71035dca77f28e110fce9ffa1605297a5c6a0a78f0157ec977828f850"
-build_start_time: [1651139644, 751369953]
-build_end_time: [1651139646, 620013952]
+build_start_time: [1652632923, 379174947]
+build_end_time: [1652632928, 66498041]
 inputs:
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/AppDelegate.swift": [1650484864, 710987567]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Coordinator/AppCoordinator.swift": [1650557744, 362463951]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Coordinator/Coordinator.swift": [1650533372, 196406841]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/AppDelegate.swift": [1652257005, 551212787]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Coordinator/AppCoordinator.swift": [1652257005, 551792144]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Coordinator/Coordinator.swift": [1652257005, 552602767]
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Models/Endpoint.swift": [1650540857, 41455268]
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Models/LoginCredentials.swift": [1650548971, 903288841]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Models/RandomStringURLBuilder.swift": [1650559538, 42053699]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/SceneDelegate.swift": [1650532511, 254135608]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/Login/LoginCoordinator.swift": [1650544957, 488288879]
-  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/Login/LoginViewController.swift": [1650550037, 811962604]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Models/RandomStringURLBuilder.swift": [1652257005, 553390979]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/SceneDelegate.swift": [1652257005, 553943634]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/Login/LoginCoordinator.swift": [1652257005, 554782152]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/Login/LoginViewController.swift": [1652257005, 555807590]
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/Login/LoginViewModel.swift": [1650549476, 5924940]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/StringsList/Cell/RandomStringCell.swift"
-  : [1650536354, 818599700]
+  : [1652257005, 556622505]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/StringsList/StringsListCoordinator.swift"
-  : [1650557744, 339704036]
+  : [1652257005, 557264328]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/StringsList/StringsListViewController.swift"
-  : [1650555259, 660386323]
+  : [1652257005, 557826995]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Screens/StringsList/StringsListViewModel.swift"
   : [1650555259, 637449979]
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Services/NetworkService.swift": [1650552531, 775138854]
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCApp/Services/RandomStringsDataService.swift": [1650553903, 939548969]
   "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCAppTests/Helpers/MockCoordinator.swift": [1650557744, 271277904]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/MVVMCAppTests/Helpers/StubRandomStringsDataService.swift"
-  : [1650556070, 324636936]
+  : [1652257005, 558430194]
