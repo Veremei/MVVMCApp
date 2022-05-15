@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1652561689, 756804943]
+build_end_time: [1652561690, 401494026]
+inputs:
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Version/Sources/Version+Codable.swift"
+  : [1652561660, 941020965]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Version/Sources/Version+Comparable.swift"
+  : [1652561660, 941213607]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Version/Sources/Version+Foundation.swift"
+  : [1652561660, 941404819]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Version/Sources/Version+Range.swift"
+  : [1652561660, 941580533]
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/Version/Sources/Version.swift": [1652561660, 941825389]

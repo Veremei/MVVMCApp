@@ -1,33 +1,35 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1652296994, 65173149]
-build_end_time: [1652296994, 734219074]
+build_start_time: [1652561689, 758172988]
+build_end_time: [1652561690, 542844057]
 inputs:
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgs.swift"
-  : [1652296725, 326964378]
+  : [1652561661, 531943082]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgsParser.swift"
-  : [1652296725, 327104330]
+  : [1652561661, 532159566]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/CreateConfig.swift"
-  : [1652296725, 327240943]
+  : [1652561661, 532386064]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/DangerCommand.swift"
-  : [1652296725, 327375173]
+  : [1652561661, 532592773]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/DangerJSVersionFinder.swift"
-  : [1652296725, 327520608]
+  : [1652561661, 532814025]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/DangerSwiftOption.swift"
-  : [1652296725, 327647209]
+  : [1652561661, 533044338]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/DangerfileArgumentsPath.swift"
-  : [1652296725, 327778339]
+  : [1652561661, 533247947]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/Files Import/DangerFileGenerator.swift"
-  : [1652296725, 328001976]
+  : [1652561661, 533472061]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/Files Import/ImportsFinder.swift"
-  : [1652296725, 328153133]
+  : [1652561661, 533725738]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/GetDangerJSPath.swift"
-  : [1652296725, 328295469]
+  : [1652561661, 533929347]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/HelpMessagePresenter.swift"
-  : [1652296725, 328423023]
+  : [1652561661, 534159183]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/NSRegularExpression+FilesImport.swift"
-  : [1652296725, 328572511]
+  : [1652561661, 534386634]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/Runtime.swift"
-  : [1652296725, 328731298]
+  : [1652561661, 534616470]
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/SPMDanger.swift"
-  : [1652296725, 328888416]
+  : [1652561661, 534842729]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/String+Path.swift"
+  : [1652561661, 535034179]

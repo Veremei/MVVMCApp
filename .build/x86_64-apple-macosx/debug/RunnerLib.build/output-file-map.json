@@ -85,5 +85,11 @@
     "object": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RunnerLib.build/SPMDanger.swift.o",
     "swiftmodule": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RunnerLib.build/SPMDanger~partial.swiftmodule",
     "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RunnerLib.build/SPMDanger.swiftdeps"
+  },
+  "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/String+Path.swift": {
+    "dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RunnerLib.build/String+Path.d",
+    "object": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RunnerLib.build/String+Path.swift.o",
+    "swiftmodule": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RunnerLib.build/String+Path~partial.swiftmodule",
+    "swift-dependencies": "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/x86_64-apple-macosx/debug/RunnerLib.build/String+Path.swiftdeps"
   }
 }

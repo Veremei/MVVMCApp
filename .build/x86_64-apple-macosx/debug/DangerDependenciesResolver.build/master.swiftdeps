@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1652561690, 476841926]
+build_end_time: [1652561691, 74059963]
+inputs:
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/Data+Encoding.swift"
+  : [1652561661, 524272441]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/FileCreator.swift"
+  : [1652561661, 524410009]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/FileReader.swift"
+  : [1652561661, 524559020]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/InlineDependenciesFinder.swift"
+  : [1652561661, 524701595]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/Package.swift"
+  : [1652561661, 524900436]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageDataProvider.swift"
+  : [1652561661, 525055646]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageGenerator.swift"
+  : [1652561661, 525322437]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageListMaker.swift"
+  : [1652561661, 525572776]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageManager.swift"
+  : [1652561661, 525835514]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/Script.swift"
+  : [1652561661, 526115894]
+  ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerDependenciesResolver/URL+RemoteRepository.swift"
+  : [1652561661, 526329994]

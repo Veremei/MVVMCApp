@@ -7,23 +7,6 @@
       {
         "basedOn" : null,
         "packageRef" : {
-          "identity" : "files",
-          "kind" : "remoteSourceControl",
-          "location" : "https://github.com/JohnSundell/Files.git",
-          "name" : "Files"
-        },
-        "state" : {
-          "checkoutState" : {
-            "revision" : "a84615f4558151fab52ac38df697ce2442991f93",
-            "version" : "2.3.0"
-          },
-          "name" : "sourceControlCheckout"
-        },
-        "subpath" : "Files"
-      },
-      {
-        "basedOn" : null,
-        "packageRef" : {
           "identity" : "logger",
           "kind" : "remoteSourceControl",
           "location" : "https://github.com/shibapm/Logger",
@@ -37,23 +20,6 @@
           "name" : "sourceControlCheckout"
         },
         "subpath" : "Logger"
-      },
-      {
-        "basedOn" : null,
-        "packageRef" : {
-          "identity" : "marathon",
-          "kind" : "remoteSourceControl",
-          "location" : "https://github.com/JohnSundell/Marathon",
-          "name" : "Marathon"
-        },
-        "state" : {
-          "checkoutState" : {
-            "revision" : "35b672e05ac411fb104e462fbfd6541f995abc17",
-            "version" : "3.3.0"
-          },
-          "name" : "sourceControlCheckout"
-        },
-        "subpath" : "Marathon"
       },
       {
         "basedOn" : null,
@@ -75,23 +41,6 @@
       {
         "basedOn" : null,
         "packageRef" : {
-          "identity" : "releases",
-          "kind" : "remoteSourceControl",
-          "location" : "https://github.com/JohnSundell/Releases.git",
-          "name" : "Releases"
-        },
-        "state" : {
-          "checkoutState" : {
-            "revision" : "ea62f33a429185b0ed21344c2355862c5bc4fcce",
-            "version" : "4.0.0"
-          },
-          "name" : "sourceControlCheckout"
-        },
-        "subpath" : "Releases"
-      },
-      {
-        "basedOn" : null,
-        "packageRef" : {
           "identity" : "requestkit",
           "kind" : "remoteSourceControl",
           "location" : "https://github.com/nerdishbynature/RequestKit.git",
@@ -109,40 +58,6 @@
       {
         "basedOn" : null,
         "packageRef" : {
-          "identity" : "require",
-          "kind" : "remoteSourceControl",
-          "location" : "https://github.com/JohnSundell/Require.git",
-          "name" : "Require"
-        },
-        "state" : {
-          "checkoutState" : {
-            "revision" : "7cfbd0d8a2dede0e01f6f0d8ab2c7acef1df112e",
-            "version" : "2.0.1"
-          },
-          "name" : "sourceControlCheckout"
-        },
-        "subpath" : "Require"
-      },
-      {
-        "basedOn" : null,
-        "packageRef" : {
-          "identity" : "shellout",
-          "kind" : "remoteSourceControl",
-          "location" : "https://github.com/JohnSundell/ShellOut.git",
-          "name" : "ShellOut"
-        },
-        "state" : {
-          "checkoutState" : {
-            "revision" : "e1577acf2b6e90086d01a6d5e2b8efdaae033568",
-            "version" : "2.3.0"
-          },
-          "name" : "sourceControlCheckout"
-        },
-        "subpath" : "ShellOut"
-      },
-      {
-        "basedOn" : null,
-        "packageRef" : {
           "identity" : "swift",
           "kind" : "remoteSourceControl",
           "location" : "https://github.com/danger/swift.git",
@@ -150,12 +65,29 @@
         },
         "state" : {
           "checkoutState" : {
-            "revision" : "33d35bf94f54155be505ffecfca745e4cc1cd0cc",
-            "version" : "1.6.5"
+            "revision" : "c1bba33f705ca0fd4a0022997c8b696210083755",
+            "version" : "3.12.3"
           },
           "name" : "sourceControlCheckout"
         },
         "subpath" : "swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "version",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/mxcl/Version",
+          "name" : "Version"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "200046c93f6d5d78a6d72bfd9c0b27a95e9c0a2b",
+            "version" : "1.2.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Version"
       }
     ]
   },

@@ -166,8 +166,8 @@
     },
     {
       "kind": "Import",
-      "name": "Files",
-      "printedName": "Files",
+      "name": "DangerDependenciesResolver",
+      "printedName": "DangerDependenciesResolver",
       "declKind": "Import",
       "moduleName": "Runner"
     },
@@ -182,13 +182,6 @@
       "kind": "Import",
       "name": "Logger",
       "printedName": "Logger",
-      "declKind": "Import",
-      "moduleName": "Runner"
-    },
-    {
-      "kind": "Import",
-      "name": "MarathonCore",
-      "printedName": "MarathonCore",
       "declKind": "Import",
       "moduleName": "Runner"
     },
@@ -277,15 +270,15 @@
     },
     {
       "kind": "Import",
-      "name": "DangerShellExecutor",
-      "printedName": "DangerShellExecutor",
+      "name": "DangerDependenciesResolver",
+      "printedName": "DangerDependenciesResolver",
       "declKind": "Import",
       "moduleName": "Runner"
     },
     {
       "kind": "Import",
-      "name": "Files",
-      "printedName": "Files",
+      "name": "DangerShellExecutor",
+      "printedName": "DangerShellExecutor",
       "declKind": "Import",
       "moduleName": "Runner"
     },
@@ -300,13 +293,6 @@
       "kind": "Import",
       "name": "Logger",
       "printedName": "Logger",
-      "declKind": "Import",
-      "moduleName": "Runner"
-    },
-    {
-      "kind": "Import",
-      "name": "MarathonCore",
-      "printedName": "MarathonCore",
       "declKind": "Import",
       "moduleName": "Runner"
     },
@@ -346,61 +332,8 @@
     },
     {
       "kind": "Import",
-      "name": "Files",
-      "printedName": "Files",
-      "declKind": "Import",
-      "moduleName": "Runner"
-    },
-    {
-      "kind": "Import",
-      "name": "Logger",
-      "printedName": "Logger",
-      "declKind": "Import",
-      "moduleName": "Runner"
-    },
-    {
-      "kind": "Import",
-      "name": "MarathonCore",
-      "printedName": "MarathonCore",
-      "declKind": "Import",
-      "moduleName": "Runner"
-    },
-    {
-      "kind": "Function",
-      "name": "getScriptManager",
-      "printedName": "getScriptManager(_:)",
-      "children": [
-        {
-          "kind": "TypeNominal",
-          "name": "ScriptManager",
-          "printedName": "MarathonCore.ScriptManager",
-          "usr": "s:12MarathonCore13ScriptManagerC"
-        },
-        {
-          "kind": "TypeNominal",
-          "name": "Logger",
-          "printedName": "Logger.Logger",
-          "usr": "s:6LoggerAAV"
-        }
-      ],
-      "declKind": "Func",
-      "usr": "s:6Runner16getScriptManagery12MarathonCore0cD0C6LoggerAFVKF",
-      "mangledName": "$s6Runner16getScriptManagery12MarathonCore0cD0C6LoggerAFVKF",
-      "moduleName": "Runner",
-      "throwing": true,
-      "funcSelfKind": "NonMutating"
-    },
-    {
-      "kind": "Import",
-      "name": "DangerShellExecutor",
-      "printedName": "DangerShellExecutor",
-      "declKind": "Import",
-      "moduleName": "Runner"
-    },
-    {
-      "kind": "Import",
-      "name": "Files",
-      "printedName": "Files",
+      "name": "DangerDependenciesResolver",
+      "printedName": "DangerDependenciesResolver",
       "declKind": "Import",
       "moduleName": "Runner"
     },
@@ -413,167 +346,35 @@
     },
     {
       "kind": "Import",
-      "name": "MarathonCore",
-      "printedName": "MarathonCore",
+      "name": "Logger",
+      "printedName": "Logger",
       "declKind": "Import",
       "moduleName": "Runner"
     },
     {
-      "kind": "TypeDecl",
-      "name": "Script",
-      "printedName": "Script",
+      "kind": "Function",
+      "name": "getScriptManager",
+      "printedName": "getScriptManager(_:)",
       "children": [
         {
-          "kind": "Function",
-          "name": "setupForEdit",
-          "printedName": "setupForEdit(arguments:importedFiles:configPath:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "String",
-              "printedName": "Swift.String",
-              "usr": "s:SS"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Array",
-              "printedName": "[Swift.String]",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sa"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Array",
-              "printedName": "[Swift.String]",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sa"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "String",
-              "printedName": "Swift.String",
-              "usr": "s:SS"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:12MarathonCore6ScriptC6RunnerE12setupForEdit9arguments13importedFiles10configPathSSSaySSG_AISStKF",
-          "mangledName": "$s12MarathonCore6ScriptC6RunnerE12setupForEdit9arguments13importedFiles10configPathSSSaySSG_AISStKF",
-          "moduleName": "Runner",
-          "declAttributes": [
-            "Final",
-            "AccessControl",
-            "DiscardableResult"
-          ],
-          "throwing": true,
-          "funcSelfKind": "NonMutating"
+          "kind": "TypeNominal",
+          "name": "ScriptManager",
+          "printedName": "DangerDependenciesResolver.ScriptManager",
+          "usr": "s:26DangerDependenciesResolver13ScriptManagerV"
         },
         {
-          "kind": "Function",
-          "name": "watch",
-          "printedName": "watch(arguments:importedFiles:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Array",
-              "printedName": "[Swift.String]",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sa"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Array",
-              "printedName": "[Swift.String]",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sa"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:12MarathonCore6ScriptC6RunnerE5watch9arguments13importedFilesySaySSG_AHtKF",
-          "mangledName": "$s12MarathonCore6ScriptC6RunnerE5watch9arguments13importedFilesySaySSG_AHtKF",
-          "moduleName": "Runner",
-          "declAttributes": [
-            "Final",
-            "AccessControl"
-          ],
-          "throwing": true,
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "executeSwiftCommand",
-          "printedName": "executeSwiftCommand(_:in:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "String",
-              "printedName": "Swift.String",
-              "usr": "s:SS"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Folder",
-              "printedName": "Files.Folder",
-              "usr": "s:5Files6FolderC"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:12MarathonCore6ScriptC6RunnerE19executeSwiftCommand_2inySS_5Files6FolderCtKF",
-          "mangledName": "$s12MarathonCore6ScriptC6RunnerE19executeSwiftCommand_2inySS_5Files6FolderCtKF",
-          "moduleName": "Runner",
-          "declAttributes": [
-            "Final"
-          ],
-          "throwing": true,
-          "funcSelfKind": "NonMutating"
+          "kind": "TypeNominal",
+          "name": "Logger",
+          "printedName": "Logger.Logger",
+          "usr": "s:6LoggerAAV"
         }
       ],
-      "declKind": "Class",
-      "usr": "s:12MarathonCore6ScriptC",
-      "mangledName": "$s12MarathonCore6ScriptC",
-      "moduleName": "MarathonCore",
-      "declAttributes": [
-        "Final"
-      ],
-      "isExternal": true,
-      "hasMissingDesignatedInitializers": true
+      "declKind": "Func",
+      "usr": "s:6Runner16getScriptManagery26DangerDependenciesResolver0cD0V6LoggerAFVKF",
+      "mangledName": "$s6Runner16getScriptManagery26DangerDependenciesResolver0cD0V6LoggerAFVKF",
+      "moduleName": "Runner",
+      "throwing": true,
+      "funcSelfKind": "NonMutating"
     }
   ],
   "json_format_version": 6

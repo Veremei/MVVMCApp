@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MVVMCApp-danger",
     dependencies: [
-      .package(url: "https://github.com/danger/swift.git", from: "1.0.0")
+      .package(url: "https://github.com/danger/swift.git", from: "3.0.0")
     ],
     targets: [
         // This is just an arbitrary Swift file in our app, that has
