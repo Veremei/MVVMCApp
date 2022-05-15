@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1652561689, 758172988]
-build_end_time: [1652561690, 542844057]
+build_start_time: [1652624239, 12377023]
+build_end_time: [1652624239, 575248956]
 inputs:
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgs.swift"
   : [1652561661, 531943082]

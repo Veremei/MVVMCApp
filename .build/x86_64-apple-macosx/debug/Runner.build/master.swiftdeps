@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "cc8d7cc55be3f0b45407c1d49f03ee17a224954b9bd1166cd075381672d6eedd"
-build_start_time: [1652561691, 155441045]
-build_end_time: [1652561691, 566375017]
+build_start_time: [1652624241, 316196918]
+build_end_time: [1652624241, 747205972]
 inputs:
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/Runner/Commands/Edit.swift"
   : [1652561661, 530704021]
