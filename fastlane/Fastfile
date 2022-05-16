@@ -23,7 +23,7 @@ platform :ios do
 
   desc 'Message, build and run a test.'
   lane :build_and_notify do
-    UI.error "--- To send steps message"
+    UI.error "--- To send tg steps message"
     UI.error "--- you should start the bot"
     UI.error "--- https://t.me/XWorkerBot"
 
