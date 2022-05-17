@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1652561662, 996711969]
-build_end_time: [1652561666, 704557895]
+build_start_time: [1652624233, 789355993]
+build_end_time: [1652624238, 940014839]
 inputs:
   ? "/Users/Daniil_Veramei/Documents/Xcode/mentoring programm/2nd module/MVVMCApp/.build/checkouts/swift/Sources/DangerShellExecutor/ShellExecutor.swift"
   : [1652561661, 530439138]

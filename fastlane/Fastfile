@@ -21,9 +21,25 @@ platform :ios do
     clear_derived_data
   end
 
+  lane :build do |options|
+    xcodebuild(
+      project: "MVVMCApp.xcodeproj",
+      scheme: "MVVMCApp",
+      configuration: "Debug",
+      clean: options[:clean],
+      build: true,
+      destination: "generic/platform=iOS",
+      build_settings: {
+        "CODE_SIGNING_REQUIRED" => "NO",
+        "CODE_SIGNING_ALLOWED" => "NO",
+        "CODE_SIGN_IDENTITY" => "Apple Development"
+      }
+    )
+  end
+
   desc 'Message, build and run a test.'
   lane :build_and_notify do
-    UI.error "--- To send steps message"
+    UI.error "--- To send tg steps message"
     UI.error "--- you should start the bot"
     UI.error "--- https://t.me/XWorkerBot"
 
@@ -35,7 +51,7 @@ platform :ios do
       chat_id: ENV['TG_CHAT_ID'],
       text: "Started building #{ENV['APP_TARGET']} on #{branch} v.#{version}"
     )
-    xcbuild
+    build
     scan
     telegram(
       token: ENV['TG_BOT_TOKEN'],
@@ -43,5 +59,4 @@ platform :ios do
       text: "Built #{ENV['APP_TARGET']} on #{branch} v.#{version}"
     )
   end
-
 end

@@ -8,9 +8,5 @@
 	<string>S3VY83A6AT</string>
 	<key>get-task-allow</key>
 	<true/>
-	<key>keychain-access-groups</key>
-	<array>
-		<string>S3VY83A6AT.com.DV.MVVMCApp</string>
-	</array>
 </dict>
 </plist>
