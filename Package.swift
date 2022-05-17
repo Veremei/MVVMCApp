@@ -10,11 +10,11 @@ let package = Package(
         // This is just an arbitrary Swift file in our app, that has
         // no dependencies outside of Foundation, the dependencies section
         // ensures that the library for Danger gets build also.
-        .target(name: "MVVMCApp-danger", 
+        .target(name: "MVVMCApp-danger",
 	dependencies: [
                  .product(name: "Danger", package: "swift")
-             ], 
-	path: "MVVMCApp", 
-	sources: ["Coordinator/Coordinator.swift"]),
+             ],
+	path: "MVVMCApp",
+	sources: ["Coordinator/Coordinator.swift"])
     ]
 )

@@ -16,6 +16,7 @@ final class LoginViewModelTests: XCTestCase {
     }
 
     func testThatCredentialsAreValid() {
+        // Given
         let expectation = expectation(description: "Successful login")
         let expectedUser = "user"
         let expectedPassword = "123qwe"
@@ -23,6 +24,7 @@ final class LoginViewModelTests: XCTestCase {
         XCTAssertEqual(sut.credentials?.user, "")
         XCTAssertEqual(sut.credentials?.password, "")
 
+        // When
         sut.login(user: expectedUser, password: expectedPassword) { result in
             switch result {
             case .success:
@@ -32,6 +34,7 @@ final class LoginViewModelTests: XCTestCase {
             }
         }
 
+        // Then
         wait(for: [expectation], timeout: 2)
 
         XCTAssertEqual(sut.credentials?.user, expectedUser)
@@ -39,12 +42,14 @@ final class LoginViewModelTests: XCTestCase {
     }
 
     func testThatCredentialsAreInvalid() {
+        // Given
         let expectation = expectation(description: "Failed login attempt")
         let expectedUser = "user"
 
         XCTAssertEqual(sut.credentials?.user, "")
         XCTAssertEqual(sut.credentials?.password, "")
 
+        // When
         sut.login(user: expectedUser, password: "123") { result in
             switch result {
             case .success:
@@ -55,6 +60,7 @@ final class LoginViewModelTests: XCTestCase {
             }
         }
 
+        // Then
         wait(for: [expectation], timeout: 2)
 
         XCTAssertEqual(sut.credentials?.user, expectedUser)

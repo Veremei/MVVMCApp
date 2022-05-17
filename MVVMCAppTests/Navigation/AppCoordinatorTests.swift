@@ -17,21 +17,28 @@ final class AppCoordinatorTests: XCTestCase {
     }
 
     func testThatRootHasLoginScreenOnStart() {
+        // Given
+
+        // When
         coordinator.start()
+
+        // Then
         XCTAssertTrue(coordinator.rootViewController.children.last is LoginViewController)
     }
 
     func testThatRootHasListAfterUserLoggedIn() {
+        // Given
         let expectation = expectation(description: "List vc is presented")
         coordinator.start()
         XCTAssertTrue(coordinator.rootViewController.children.last is LoginViewController)
 
+        // When
         coordinator.loggedIn()
-
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             expectation.fulfill()
         }
 
+        // Then
         wait(for: [expectation], timeout: 1)
         XCTAssertTrue(coordinator.rootViewController.children.last is StringsListViewController)
     }

@@ -14,6 +14,14 @@ final class LoginViewController: UIViewController {
 
     private var viewModel: LoginViewModel
 
+    var userFieldIsEmpty: Bool {
+        (userTextField.text ?? "").isEmpty
+    }
+
+    var passwordFieldIsEmpty: Bool {
+        (passwordTextField.text ?? "").isEmpty
+    }
+
     init(viewModel: LoginViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)

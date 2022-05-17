@@ -14,7 +14,6 @@
 		BA4BF07228109E030073C200 /* MVVMCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF07128109E030073C200 /* MVVMCAppUITests.swift */; };
 		BA4BF07428109E030073C200 /* MVVMCAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF07328109E030073C200 /* MVVMCAppUITestsLaunchTests.swift */; };
 		BA4BF08428109FB20073C200 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF08328109FB20073C200 /* LoginViewModel.swift */; };
-		BA4BF08528109FB20073C200 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF08328109FB20073C200 /* LoginViewModel.swift */; };
 		BA4BF08628109FB20073C200 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF08328109FB20073C200 /* LoginViewModel.swift */; };
 		BA4BF08828109FBD0073C200 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF08728109FBD0073C200 /* LoginViewController.swift */; };
 		BA4BF08928109FBD0073C200 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF08728109FBD0073C200 /* LoginViewController.swift */; };
@@ -77,6 +76,11 @@
 		BA6BDA6F2811C0690079D399 /* RandomStringURLBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA6E2811C0690079D399 /* RandomStringURLBuilderTests.swift */; };
 		BA6BDA722811C3E00079D399 /* RandomStringsDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA712811C3E00079D399 /* RandomStringsDataServiceTests.swift */; };
 		BA6BDA752811C56F0079D399 /* random_strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA6BDA742811C56F0079D399 /* random_strings.txt */; };
+		BA9693662833CB970078D42B /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9693652833CB970078D42B /* LoginViewControllerTests.swift */; };
+		BAC5568F2833CD0800D17339 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BF08328109FB20073C200 /* LoginViewModel.swift */; };
+		BAC556922833E14E00D17339 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC556912833E14E00D17339 /* AppError.swift */; };
+		BAC556932833E14E00D17339 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC556912833E14E00D17339 /* AppError.swift */; };
+		BAC556942833E14E00D17339 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC556912833E14E00D17339 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +137,8 @@
 		BA6BDA6E2811C0690079D399 /* RandomStringURLBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringURLBuilderTests.swift; sourceTree = "<group>"; };
 		BA6BDA712811C3E00079D399 /* RandomStringsDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringsDataServiceTests.swift; sourceTree = "<group>"; };
 		BA6BDA742811C56F0079D399 /* random_strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = random_strings.txt; sourceTree = "<group>"; };
+		BA9693652833CB970078D42B /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		BAC556912833E14E00D17339 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +208,7 @@
 				BA6BDA702811C3CB0079D399 /* Service */,
 				BA6BDA652811B8230079D399 /* Navigation */,
 				BA6BDA5B2811A83F0079D399 /* ViewModels */,
+				BA9693642833CB7D0078D42B /* Screens */,
 				BA6BDA5C2811A84E0079D399 /* Helpers */,
 				BA6BDA682811BA770079D399 /* Extensions */,
 				BA6BDA732811C55F0079D399 /* Resources */,
@@ -280,6 +287,7 @@
 		BA6BD76F2811748C0079D399 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BAC556902833E12F00D17339 /* Errors */,
 				BA6BD7702811749E0079D399 /* Endpoint.swift */,
 				BA6BD7782811775F0079D399 /* RandomStringURLBuilder.swift */,
 				BA6BDA4F281194280079D399 /* LoginCredentials.swift */,
@@ -336,6 +344,22 @@
 				BA6BDA742811C56F0079D399 /* random_strings.txt */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA9693642833CB7D0078D42B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BA9693652833CB970078D42B /* LoginViewControllerTests.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BAC556902833E12F00D17339 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				BAC556912833E14E00D17339 /* AppError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,6 +540,7 @@
 				BA6BD7712811749E0079D399 /* Endpoint.swift in Sources */,
 				BA6BD775281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD768281165B70079D399 /* RandomStringCell.swift in Sources */,
+				BAC556922833E14E00D17339 /* AppError.swift in Sources */,
 				BA6BDA582811A60A0079D399 /* RandomStringsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +549,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC5568F2833CD0800D17339 /* LoginViewModel.swift in Sources */,
+				BAC556932833E14E00D17339 /* AppError.swift in Sources */,
 				BA6BDA672811B8370079D399 /* AppCoordinatorTests.swift in Sources */,
 				BA6BDA5F2811AB420079D399 /* StubRandomStringsDataService.swift in Sources */,
 				BA4BF08928109FBD0073C200 /* LoginViewController.swift in Sources */,
@@ -532,9 +559,9 @@
 				BA6BDA632811B8100079D399 /* MockCoordinator.swift in Sources */,
 				BA4BF0982810AB7F0073C200 /* StringsListViewController.swift in Sources */,
 				BA6BD75A28114B290079D399 /* LoginCoordinator.swift in Sources */,
+				BA9693662833CB970078D42B /* LoginViewControllerTests.swift in Sources */,
 				BA6BDA562811A2070079D399 /* NetworkServiceFake.swift in Sources */,
 				BA6BDA592811A60A0079D399 /* RandomStringsDataService.swift in Sources */,
-				BA4BF08528109FB20073C200 /* LoginViewModel.swift in Sources */,
 				BA6BD75628113E2A0079D399 /* AppCoordinator.swift in Sources */,
 				BA6BD769281165B70079D399 /* RandomStringCell.swift in Sources */,
 				BA4BF0932810AB490073C200 /* StringsListViewModel.swift in Sources */,
@@ -570,6 +597,7 @@
 				BA6BD7732811749E0079D399 /* Endpoint.swift in Sources */,
 				BA6BD777281175870079D399 /* NetworkService.swift in Sources */,
 				BA6BD76A281165B70079D399 /* RandomStringCell.swift in Sources */,
+				BAC556942833E14E00D17339 /* AppError.swift in Sources */,
 				BA6BDA5A2811A60A0079D399 /* RandomStringsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
