@@ -19,7 +19,7 @@ enum LoginError: LocalizedError {
 }
 
 protocol LoginViewModel {
-    var credentials: LoginCredentials? { get }
+    var credentials: LoginCredentials? { get set }
     func login(user: String, password: String, completion: @escaping (Result<Void, Error>) -> Void)
     func loginDidFinish()
 }

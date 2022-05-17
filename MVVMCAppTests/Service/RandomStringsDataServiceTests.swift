@@ -33,18 +33,27 @@ class RandomStringsDataServiceTests: XCTestCase {
     }
 
     func testLoadingDataAndParsingIntoArray() {
+        // Given
+        let expectation = expectation(description: "Loaded strings")
         let expectedStrings = ["first", "second", "third"]
+        var stringsResult: [String]!
 
         let mockedResponse = try! load(from: "random_strings.txt")
         networkService.requestResult = .success(mockedResponse)
 
+        // When
         dataService.loadStrings { result in
             switch result {
             case .success(let strings):
-                XCTAssertEqual(strings, expectedStrings)
+                stringsResult = strings
+                expectation.fulfill()
             case .failure:
                 XCTFail("Loading strings shouldn't fail")
             }
         }
+
+        // Then
+        wait(for: [expectation], timeout: 1)
+        XCTAssertEqual(stringsResult, expectedStrings)
     }
 }
