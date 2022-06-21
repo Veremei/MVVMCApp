@@ -1,0 +1,5 @@
+*.html linguist-detectable=false
+*.d linguist-detectable=false
+*.sample linguist-detectable=false
+*.h linguist-detectable=false
+
