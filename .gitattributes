@@ -2,4 +2,4 @@
 *.d linguist-detectable=false
 *.sample linguist-detectable=false
 *.h linguist-detectable=false
-
+*.swift linguist-detectable=true
